@@ -1,7 +1,6 @@
 # Discord Bot for Raspberry Pi(or any debian system)
 
-This project is to use openai and discord.py to make a discord bot that can interact with user on a given discord channel.
-Requires Python>=3.10
+This project have been archived.
 
 ## Project Setup
 
