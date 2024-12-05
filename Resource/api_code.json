@@ -1,0 +1,6478 @@
+[
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_name": "종목명(법인명)"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "stock_code": "종목코드"
+            },
+            {
+              "report_nm": "보고서명"
+            },
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "flr_nm": "공시 제출인명"
+            },
+            {
+              "rcept_dt": "접수일자"
+            },
+            {
+              "rm": "비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "page_count": "페이지 별 건수",
+          "page_no": "페이지 번호",
+          "status": "에러 및 정보 코드",
+          "total_count": "총 건수",
+          "total_page": "총 페이지 수"
+        }
+      }
+    ],
+    "title": "공시검색",
+    "code": "A1"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "acc_mt": "결산월(MM)",
+          "adres": "주소",
+          "bizr_no": "사업자등록번호",
+          "ceo_nm": "대표자명",
+          "corp_cls": "법인구분, Y(유가), K(코스닥), N(코넥스), E(기타)",
+          "corp_name": "정식명칭",
+          "corp_name_eng": "영문명칭",
+          "est_dt": "설립일(YYYYMMDD)",
+          "fax_no": "팩스번호",
+          "hm_url": "홈페이지",
+          "induty_code": "업종코드",
+          "ir_url": "IR홈페이지",
+          "jurir_no": "법인등록번호",
+          "message": "에러 및 정보 메시지",
+          "phn_no": "전화번호",
+          "status": "에러 및 정보 코드",
+          "stock_code": "상장회사의 종목코드(6자리)",
+          "stock_name": "종목명(상장사) 또는 약식명칭(기타법인)"
+        }
+      }
+    ],
+    "title": "기업개황",
+    "code": "A2"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "corp_code": "공시대상회사의 고유번호"
+            },
+            {
+              "corp_name": "정식회사명칭"
+            },
+            {
+              "stock_code": "주식의 종목코드"
+            },
+            {
+              "modify_date": "최종변경일자"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "고유번호",
+    "code": "A4"
+  },
+  {
+    "response": [
+      {
+        "message": "에러 및 정보 메시지",
+        "result": {
+          "list": [
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "remndr_exprtn1": "잔여만기"
+            },
+            {
+              "remndr_exprtn2": "잔여만기"
+            },
+            {
+              "sm": "합계"
+            },
+            {
+              "yy1_below": "1년 이하"
+            },
+            {
+              "yy1_excess_yy2_below": "1년초과 2년이하"
+            },
+            {
+              "yy2_excess_yy3_below": "2년초과 3년이하"
+            },
+            {
+              "yy3_excess_yy4_below": "3년초과 4년이하"
+            },
+            {
+              "yy4_excess_yy5_below": "4년초과 5년이하"
+            },
+            {
+              "yy5_excess_yy10_below": "5년초과 10년이하"
+            },
+            {
+              "yy10_excess_yy20_below": "10년초과 20년이하"
+            },
+            {
+              "yy20_excess_yy30_below": "20년초과 30년이하"
+            },
+            {
+              "yy30_excess": "30년초과"
+            }
+          ]
+        },
+        "status": "에러 및 정보 코드"
+      }
+    ],
+    "title": "조건부 자본증권 미상환 잔액",
+    "code": "B1"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "STRING타입 접수번호"
+            },
+            {
+              "corp_cls": "STRING타입 법인구분"
+            },
+            {
+              "corp_code": "STRING타입 고유번호"
+            },
+            {
+              "corp_name": "STRING타입 회사명"
+            },
+            {
+              "se": "STRING타입 구분"
+            },
+            {
+              "nmpr": "INT타입 인원수"
+            },
+            {
+              "fyer_salary_totamt": "INT타입 연간급여 총액"
+            },
+            {
+              "jan_salary_am": "INT타입 1인평균 급여액"
+            },
+            {
+              "rm": "STRING타입 비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "미등기임원 보수현황",
+    "code": "B2"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "remndr_exprtn1": "잔여만기(1개)"
+            },
+            {
+              "remndr_exprtn2": "잔여만기(2개)"
+            },
+            {
+              "yy1_below": "1년 이하"
+            },
+            {
+              "yy1_excess_yy2_below": "1년초과 2년이하"
+            },
+            {
+              "yy2_excess_yy3_below": "2년초과 3년이하"
+            },
+            {
+              "yy3_excess_yy4_below": "3년초과 4년이하"
+            },
+            {
+              "yy4_excess_yy5_below": "4년초과 5년이하"
+            },
+            {
+              "yy5_excess_yy10_below": "5년초과 10년이하"
+            },
+            {
+              "yy10_excess": "10년초과"
+            },
+            {
+              "sm": "합계"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "회사채 미상환 잔액 개발가이드",
+    "code": "B3"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "remndr_exprtn1": "잔여만기"
+            },
+            {
+              "remndr_exprtn2": "잔여만기"
+            },
+            {
+              "de10_below": "10일 이하"
+            },
+            {
+              "de10_excess_de30_below": "10일초과 30일이하"
+            },
+            {
+              "de30_excess_de90_below": "30일초과 90일이하"
+            },
+            {
+              "de90_excess_de180_below": "90일초과 180일이하"
+            },
+            {
+              "de180_excess_yy1_below": "180일초과 1년이하"
+            },
+            {
+              "sm": "합계"
+            },
+            {
+              "isu_lmt": "발행 한도"
+            },
+            {
+              "remndr_lmt": "잔여 한도"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "단기사채 미상환 잔액",
+    "code": "B4"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "remndr_exprtn1": "잔여만기"
+            },
+            {
+              "remndr_exprtn2": "잔여만기"
+            },
+            {
+              "de10_below": "10일 이하 잔액"
+            },
+            {
+              "de10_excess_de30_below": "10일초과 30일이하 잔액"
+            },
+            {
+              "de30_excess_de90_below": "30일초과 90일이하 잔액"
+            },
+            {
+              "de90_excess_de180_below": "90일초과 180일이하 잔액"
+            },
+            {
+              "de180_excess_yy1_below": "180일초과 1년이하 잔액"
+            },
+            {
+              "yy1_excess_yy2_below": "1년초과 2년이하 잔액"
+            },
+            {
+              "yy2_excess_yy3_below": "2년초과 3년이하 잔액"
+            },
+            {
+              "yy3_excess": "3년 초과 잔액"
+            },
+            {
+              "sm": "합계 잔액"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "기업어음증권 미상환 잔액",
+    "code": "B5"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호(14자리)"
+            },
+            {
+              "corp_cls": "법인구분(Y:유가, K:코스닥, N:코넥스, E:기타)"
+            },
+            {
+              "corp_code": "고유번호(8자리)"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "isu_cmpny": "발행회사"
+            },
+            {
+              "scrits_knd_nm": "증권종류"
+            },
+            {
+              "isu_mth_nm": "발행방법"
+            },
+            {
+              "isu_de": "발행일자(YYYYMMDD)"
+            },
+            {
+              "facvalu_totamt": "권면(전자등록)총액(9,999,999,999)"
+            },
+            {
+              "intrt": "이자율(0.00)"
+            },
+            {
+              "evl_grad_instt": "평가등급(평가기관)"
+            },
+            {
+              "mtd": "만기일(YYYYMMDD)"
+            },
+            {
+              "repy_at": "상환여부"
+            },
+            {
+              "mngt_cmpny": "주관회사"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "채무증권 발행실적",
+    "code": "B6"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "se_nm": "구분"
+            },
+            {
+              "tm": "회차"
+            },
+            {
+              "pay_de": "납입일"
+            },
+            {
+              "pay_amount": "납입금액"
+            },
+            {
+              "cptal_use_plan": "자금사용 계획"
+            },
+            {
+              "real_cptal_use_sttus": "실제 자금사용 현황"
+            },
+            {
+              "mtrpt_cptal_use_plan_useprps": "주요사항보고서의 자금사용 계획(사용용도)"
+            },
+            {
+              "mtrpt_cptal_use_plan_prcure_amount": "주요사항보고서의 자금사용 계획(조달금액)"
+            },
+            {
+              "real_cptal_use_dtls_cn": "실제 자금사용 내역(내용)"
+            },
+            {
+              "real_cptal_use_dtls_amount": "실제 자금사용 내역(금액)"
+            },
+            {
+              "dffrnc_occrrnc_resn": "차이발생 사유 등"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "사모자금의 사용내역",
+    "code": "B7"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "se_nm": "구분"
+            },
+            {
+              "tm": "회차"
+            },
+            {
+              "pay_de": "납입일"
+            },
+            {
+              "pay_amount": "납입금액, 2018년 1월 18일까지 사용됨"
+            },
+            {
+              "on_dclrt_cptal_use_plan": "신고서상 자금사용 계획, 2018년 1월 18일까지 사용됨"
+            },
+            {
+              "real_cptal_use_sttus": "실제 자금사용 현황, 2018년 1월 18일까지 사용됨"
+            },
+            {
+              "rs_cptal_use_plan_useprps": "증권신고서 등의 자금사용 계획(사용용도), 2018년 1월 19일부터 추가됨"
+            },
+            {
+              "rs_cptal_use_plan_prcure_amount": "증권신고서 등의 자금사용 계획(조달금액), 2018년 1월 19일부터 추가됨"
+            },
+            {
+              "real_cptal_use_dtls_cn": "실제 자금사용 내역(내용), 2018년 1월 19일부터 추가됨"
+            },
+            {
+              "real_cptal_use_dtls_amount": "실제 자금사용 내역(금액), 2018년 1월 19일부터 추가됨"
+            },
+            {
+              "dffrnc_occrrnc_resn": "차이발생 사유 등"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "공모자금의 사용내역",
+    "code": "B8"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "se": "구분"
+            },
+            {
+              "nmpr": "인원수"
+            },
+            {
+              "gmtsck_confm_amount": "주주총회 승인금액"
+            },
+            {
+              "rm": "비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "이사·감사 전체의 보수현황(주주총회 승인금액)",
+    "code": "B9"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "se": "구분"
+            },
+            {
+              "nmpr": "인원수"
+            },
+            {
+              "pymnt_totamt": "보수총액"
+            },
+            {
+              "psn1_avrg_pymntamt": "1인당 평균보수액"
+            },
+            {
+              "rm": "비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "이사·감사 전체의 보수현황",
+    "code": "B10"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "se": "구분"
+            },
+            {
+              "isu_stock_totqy": "발행할 주식의 총수"
+            },
+            {
+              "now_to_isu_stock_totqy": "현재까지 발행한 주식의 총수"
+            },
+            {
+              "now_to_dcrs_stock_totqy": "현재까지 감소한 주식의 총수"
+            },
+            {
+              "redc": "감자"
+            },
+            {
+              "profit_incnr": "이익소각"
+            },
+            {
+              "rdmstk_repy": "상환주식의 상환"
+            },
+            {
+              "etc": "기타"
+            },
+            {
+              "istc_totqy": "발행주식의 총수"
+            },
+            {
+              "tesstk_co": "자기주식수"
+            },
+            {
+              "distb_stock_co": "유통주식수"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "주식의 총수 현황",
+    "code": "B11"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "bsns_year": "사업연도"
+            },
+            {
+              "adtor": "감사인"
+            },
+            {
+              "adt_opinion": "감사의견"
+            },
+            {
+              "adt_reprt_spcmnt_matter": "감사보고서특기사항"
+            },
+            {
+              "emphs_matter": "강조사항등"
+            },
+            {
+              "core_adt_matter": "핵심감사사항"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "회계감사인의 명칭 및 감사 의견",
+    "code": "B12"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "bsns_year": "사업연도"
+            },
+            {
+              "adtor": "감사인"
+            },
+            {
+              "cn": "내용"
+            },
+            {
+              "mendng": "보수"
+            },
+            {
+              "tot_reqre_time": "총소요시간"
+            },
+            {
+              "adt_cntrct_dtls_mendng": "감사계약 내역에 대한 보수"
+            },
+            {
+              "adt_cntrct_dtls_time": "감사계약의 총소요시간"
+            },
+            {
+              "real_exc_dtls_mendng": "실제 수행 내역의 보수"
+            },
+            {
+              "real_exc_dtls_time": "실제 수행 내역의 총소요시간"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "감사용역체결현황",
+    "code": "B13"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "bsns_year": "사업연도"
+            },
+            {
+              "cntrct_cncls_de": "계약체결일"
+            },
+            {
+              "servc_cn": "용역내용"
+            },
+            {
+              "servc_exc_pd": "용역수행기간"
+            },
+            {
+              "servc_mendng": "용역보수"
+            },
+            {
+              "rm": "비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "회계감사인과의 비감사용역 계약체결 현황",
+    "code": "B14"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "drctr_co": "이사의 수"
+            },
+            {
+              "otcmp_drctr_co": "사외이사 수"
+            },
+            {
+              "apnt": "사외이사 변동현황(선임)"
+            },
+            {
+              "rlsofc": "사외이사 변동현황(해임)"
+            },
+            {
+              "mdstrm_resig": "사외이사 변동현황(중도퇴임)"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "사외이사 및 그 변동현황",
+    "code": "B15"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분 Y:유가, K:코스닥, N:코넥스, E:기타"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "remndr_exprtn1": "잔여만기"
+            },
+            {
+              "remndr_exprtn2": "잔여만기"
+            },
+            {
+              "yy1_below": "1년 이하 잔고"
+            },
+            {
+              "yy1_excess_yy5_below": "1년 초과 5년 이하 잔고"
+            },
+            {
+              "yy5_excess_yy10_below": "5년 초과 10년 이하 잔고"
+            },
+            {
+              "yy10_excess_yy15_below": "10년 초과 15년 이하 잔고"
+            },
+            {
+              "yy15_excess_yy20_below": "15년 초과 20년 이하 잔고"
+            },
+            {
+              "yy20_excess_yy30_below": "20년 초과 30년 이하 잔고"
+            },
+            {
+              "yy30_excess": "30년 초과 잔고"
+            },
+            {
+              "sm": "합계"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "신종자본증권",
+    "code": "B16"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "isu_dcrs_de": "주식발행 감소일자"
+            },
+            {
+              "isu_dcrs_stle": "발행 감소 형태"
+            },
+            {
+              "isu_dcrs_stock_knd": "발행 감소 주식 종류"
+            },
+            {
+              "isu_dcrs_qy": "발행 감소 수량"
+            },
+            {
+              "isu_dcrs_mstvdv_fval_amount": "발행 감소 주당 액면 가액"
+            },
+            {
+              "isu_dcrs_mstvdv_amount": "발행 감소 주당 가액"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "증자(감자) 현황",
+    "code": "B17"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "se": "구분"
+            },
+            {
+              "stock_knd": "주식 종류"
+            },
+            {
+              "thstrm": "당기"
+            },
+            {
+              "frmtrm": "전기"
+            },
+            {
+              "lwfr": "전전기"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "배당에 관한 사항",
+    "code": "B18"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "acqs_mth1": "취득방법 대분류"
+            },
+            {
+              "acqs_mth2": "취득방법 중분류"
+            },
+            {
+              "acqs_mth3": "취득방법 소분류"
+            },
+            {
+              "stock_knd": "주식 종류"
+            },
+            {
+              "bsis_qy": "기초 수량"
+            },
+            {
+              "change_qy_acqs": "변동 수량 취득"
+            },
+            {
+              "change_qy_dsps": "변동 수량 처분"
+            },
+            {
+              "change_qy_incnr": "변동 수량 소각"
+            },
+            {
+              "trmend_qy": "기말 수량"
+            },
+            {
+              "rm": "비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "자기주식 취득 및 처분 현황",
+    "code": "B19"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "nm": "성명"
+            },
+            {
+              "relate": "관계"
+            },
+            {
+              "stock_knd": "주식 종류"
+            },
+            {
+              "bsis_posesn_stock_co": "기초 소유 주식 수"
+            },
+            {
+              "bsis_posesn_stock_qota_rt": "기초 소유 주식 지분 율"
+            },
+            {
+              "trmend_posesn_stock_co": "기말 소유 주식 수"
+            },
+            {
+              "trmend_posesn_stock_qota_rt": "기말 소유 주식 지분 율"
+            },
+            {
+              "rm": "비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "최대주주 현황",
+    "code": "B20"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분 Y:유가, K:코스닥, N:코넥스, E:기타"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "change_on": "변동일(YYYY.MM.DD)"
+            },
+            {
+              "mxmm_shrholdr_nm": "최대주주명"
+            },
+            {
+              "posesn_stock_co": "소유주식수"
+            },
+            {
+              "qota_rt": "지분율"
+            },
+            {
+              "change_cause": "변동원인"
+            },
+            {
+              "rm": "비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "최대주주 변동현황",
+    "code": "B21"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "se": "구분"
+            },
+            {
+              "shrholdr_co": "주주수"
+            },
+            {
+              "shrholdr_tot_co": "전체 주주수"
+            },
+            {
+              "shrholdr_rate": "주주비율"
+            },
+            {
+              "hold_stock_co": "보유 주식수"
+            },
+            {
+              "stock_tot_co": "총발행 주식수"
+            },
+            {
+              "hold_stock_rate": "보유 주식 비율"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "소액주주 현황",
+    "code": "B22"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "nm": "성명"
+            },
+            {
+              "sexdstn": "성별"
+            },
+            {
+              "birth_ym": "출생 년월"
+            },
+            {
+              "ofcps": "직위"
+            },
+            {
+              "rgist_exctv_at": "등기 임원 여부"
+            },
+            {
+              "fte_at": "상근 여부"
+            },
+            {
+              "chrg_job": "담당 업무"
+            },
+            {
+              "main_career": "주요 경력"
+            },
+            {
+              "mxmm_shrholdr_relate": "최대 주주 관계"
+            },
+            {
+              "hffc_pd": "재직 기간"
+            },
+            {
+              "tenure_end_on": "임기 만료 일"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "임원 현황",
+    "code": "B23"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "fo_bbm": "사업부문"
+            },
+            {
+              "sexdstn": "성별"
+            },
+            {
+              "reform_bfe_emp_co_rgllbr": "개정 전 직원 수 정규직"
+            },
+            {
+              "reform_bfe_emp_co_cnttk": "개정 전 직원 수 계약직"
+            },
+            {
+              "reform_bfe_emp_co_etc": "개정 전 직원 수 기타"
+            },
+            {
+              "rgllbr_co": "정규직 수"
+            },
+            {
+              "rgllbr_abacpt_labrr_co": "정규직 단시간 근로자 수"
+            },
+            {
+              "cnttk_co": "계약직 수"
+            },
+            {
+              "cnttk_abacpt_labrr_co": "계약직 단시간 근로자 수"
+            },
+            {
+              "sm": "합계"
+            },
+            {
+              "avrg_cnwk_sdytrn": "평균 근속 연수"
+            },
+            {
+              "fyer_salary_totamt": "연간 급여 총액"
+            },
+            {
+              "jan_salary_am": "1인평균 급여 액"
+            },
+            {
+              "rm": "비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "직원 현황",
+    "code": "B24"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "nm": "이름"
+            },
+            {
+              "ofcps": "직위"
+            },
+            {
+              "mendng_totamt": "보수 총액"
+            },
+            {
+              "mendng_totamt_ct_incls_mendng": "보수 총액 비 포함 보수"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "이사·감사의 개인별 보수 현황",
+    "code": "B25"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "jan_avrg_mendng_am": "1인 평균 보수 액"
+            },
+            {
+              "mendng_totamt": "보수 총액"
+            },
+            {
+              "nmpr": "인원수"
+            },
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "rm": "비고"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "이사·감사 전체의 보수현황",
+    "code": "B26"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분 Y:유가, K:코스닥, N:코넥스, E:기타"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "법인명"
+            },
+            {
+              "nm": "이름"
+            },
+            {
+              "ofcps": "직위"
+            },
+            {
+              "mendng_totamt": "보수 총액"
+            },
+            {
+              "mendng_totamt_ct_incls_mendng": "보수 총액 비 포함 보수"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "개인별 보수지급 금액(5억이상 상위5인)",
+    "code": "B27"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "bsis_blce_acntbk_amount": "기초 잔액 장부 가액"
+            },
+            {
+              "bsis_blce_qota_rt": "기초 잔액 지분율"
+            },
+            {
+              "bsis_blce_qy": "기초 잔액 수량"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "frst_acqs_amount": "최초 취득 금액"
+            },
+            {
+              "frst_acqs_de": "최초 취득 일자"
+            },
+            {
+              "incrs_dcrs_acqs_dsps_amount": "증가 감소 취득 처분 금액"
+            },
+            {
+              "incrs_dcrs_acqs_dsps_qy": "증가 감소 취득 처분 수량"
+            },
+            {
+              "incrs_dcrs_evl_lstmn": "증가 감소 평가 손액"
+            },
+            {
+              "inv_prm": "법인명"
+            },
+            {
+              "invstmnt_purps": "출자목적"
+            },
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "recent_bsns_year_fnnr_sttus_thstrm_ntpf": "최근 사업 연도 재무 현황 당기 순이익"
+            },
+            {
+              "recent_bsns_year_fnnr_sttus_tot_assets": "최근 사업 연도 재무 현황 총 자산"
+            },
+            {
+              "trmend_blce_acntbk_amount": "기말 잔액 장부 가액"
+            },
+            {
+              "trmend_blce_qota_rt": "기말 잔액 지분율"
+            },
+            {
+              "trmend_blce_qy": "기말 잔액 수량"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "타법인 출자현황",
+    "code": "B28"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "bsns_year": "사업년도"
+            },
+            {
+              "stock_code": "종목코드"
+            },
+            {
+              "reprt_code": "보고서코드"
+            },
+            {
+              "account_nm": "계정명"
+            },
+            {
+              "fs_div": "개별/연결구분 (OFS: 재무제표, CFS: 연결재무제표)"
+            },
+            {
+              "fs_nm": "개별/연결명"
+            },
+            {
+              "sj_div": "재무제표구분 (BS: 재무상태표, IS: 손익계산서)"
+            },
+            {
+              "sj_nm": "재무제표명"
+            },
+            {
+              "thstrm_nm": "당기명"
+            },
+            {
+              "thstrm_dt": "당기일자"
+            },
+            {
+              "thstrm_amount": "당기금액"
+            },
+            {
+              "thstrm_add_amount": "당기누적금액"
+            },
+            {
+              "frmtrm_nm": "전기명"
+            },
+            {
+              "frmtrm_dt": "전기일자"
+            },
+            {
+              "frmtrm_amount": "전기금액"
+            },
+            {
+              "frmtrm_add_amount": "전기누적금액"
+            },
+            {
+              "bfefrmtrm_nm": "전전기명"
+            },
+            {
+              "bfefrmtrm_dt": "전전기일자"
+            },
+            {
+              "bfefrmtrm_amount": "전전기금액"
+            },
+            {
+              "ord": "계정과목 정렬순서"
+            },
+            {
+              "currency": "통화 단위"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "단일회사 주요계정",
+    "code": "C1"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "bsns_year": "사업 연도"
+            },
+            {
+              "stock_code": "종목 코드"
+            },
+            {
+              "reprt_code": "보고서 코드"
+            },
+            {
+              "account_nm": "계정명"
+            },
+            {
+              "fs_div": "개별/연결구분"
+            },
+            {
+              "fs_nm": "개별/연결명"
+            },
+            {
+              "sj_div": "재무제표구분"
+            },
+            {
+              "sj_nm": "재무제표명"
+            },
+            {
+              "thstrm_nm": "당기명"
+            },
+            {
+              "thstrm_dt": "당기일자"
+            },
+            {
+              "thstrm_amount": "당기금액"
+            },
+            {
+              "thstrm_add_amount": "당기누적금액"
+            },
+            {
+              "frmtrm_nm": "전기명"
+            },
+            {
+              "frmtrm_dt": "전기일자"
+            },
+            {
+              "frmtrm_amount": "전기금액"
+            },
+            {
+              "frmtrm_add_amount": "전기누적금액"
+            },
+            {
+              "bfefrmtrm_nm": "전전기명"
+            },
+            {
+              "bfefrmtrm_dt": "전전기일자"
+            },
+            {
+              "bfefrmtrm_amount": "전전기금액"
+            },
+            {
+              "ord": "계정과목 정렬순서"
+            },
+            {
+              "currency": "통화 단위"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "다중회사 주요계정",
+    "code": "C2"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수 번호"
+            },
+            {
+              "reprt_code": "보고서 코드"
+            },
+            {
+              "bsns_year": "사업 연도"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "sj_div": "재무제표구분"
+            },
+            {
+              "sj_nm": "재무제표명"
+            },
+            {
+              "account_id": "계정 ID"
+            },
+            {
+              "account_nm": "계정명"
+            },
+            {
+              "account_detail": "계정 상세"
+            },
+            {
+              "thstrm_nm": "당기명"
+            },
+            {
+              "thstrm_amount": "당기금액"
+            },
+            {
+              "thstrm_add_amount": "당기누적금액"
+            },
+            {
+              "frmtrm_nm": "전기명"
+            },
+            {
+              "frmtrm_amount": "전기금액"
+            },
+            {
+              "frmtrm_q_nm": "전기명(분/반기)"
+            },
+            {
+              "frmtrm_q_amount": "전기금액(분/반기)"
+            },
+            {
+              "frmtrm_add_amount": "전기누적금액"
+            },
+            {
+              "bfefrmtrm_nm": "전전기명"
+            },
+            {
+              "bfefrmtrm_amount": "전전기금액"
+            },
+            {
+              "ord": "계정과목 정렬 순서"
+            },
+            {
+              "currency": "통화 단위"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "단일회사 전체 재무제표",
+    "code": "C4"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "sj_div": "재무제표구분"
+            },
+            {
+              "account_id": "계정ID"
+            },
+            {
+              "account_nm": "계정명"
+            },
+            {
+              "bsns_de": "적용 기준일"
+            },
+            {
+              "label_kor": "한글 출력명"
+            },
+            {
+              "label_eng": "영문 출력명"
+            },
+            {
+              "data_tp": "데이터 유형"
+            },
+            {
+              "ifrs_ref": "IFRS Reference"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "sj_div": [
+      {
+        "BS1": "연결 재무상태표/유동/비유동법",
+        "BS2": "개별 재무상태표/유동/비유동법",
+        "BS3": "연결 재무상태표/유동성배열법",
+        "BS4": "개별 재무상태표/유동성배열법",
+        "CF1": "연결 현금흐름표/직접법",
+        "CF2": "개별 현금흐름표/직접법",
+        "CF3": "연결 현금흐름표/간접법",
+        "CF4": "개별 현금흐름표/간접법",
+        "CIS1": "연결 포괄손익계산서/세후",
+        "CIS2": "개별 포괄손익계산서/세후",
+        "CIS3": "연결 포괄손익계산서/세전",
+        "CIS4": "개별 포괄손익계산서/세전",
+        "DCIS1": "연결 단일 포괄손익계산서/기능별분류/세후포괄손익",
+        "DCIS2": "개별 단일 포괄손익계산서/기능별분류/세후포괄손익",
+        "DCIS3": "연결 단일 포괄손익계산서/기능별분류/세전",
+        "DCIS4": "개별 단일 포괄손익계산서/기능별분류/세전",
+        "DCIS5": "연결 단일 포괄손익계산서/성격별분류/세후포괄손익",
+        "DCIS6": "개별 단일 포괄손익계산서/성격별분류/세후포괄손익",
+        "DCIS7": "연결 단일 포괄손익계산서/성격별분류/세전",
+        "DCIS8": "개별 단일 포괄손익계산서/성격별분류/세전",
+        "IS1": "연결 별개의 손익계산서/기능별분류",
+        "IS2": "개별 별개의 손익계산서/기능별분류",
+        "IS3": "연결 별개의 손익계산서/성격별분류",
+        "IS4": "개별 별개의 손익계산서/성격별분류",
+        "SCE1": "연결 자본변동표",
+        "SCE2": "개별 자본변동표"
+      }
+    ],
+    "title": "XBRL택사노미재무제표양식",
+    "code": "C5"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "rcept_dt": "접수일자"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "report_tp": "보고구분"
+            },
+            {
+              "repror": "대표보고자"
+            },
+            {
+              "stkqy": "보유주식등의 수"
+            },
+            {
+              "stkqy_irds": "보유주식등의 증감"
+            },
+            {
+              "stkrt": "보유비율"
+            },
+            {
+              "stkrt_irds": "보유비율 증감"
+            },
+            {
+              "ctr_stkqy": "주요체결 주식등의 수"
+            },
+            {
+              "ctr_stkrt": "주요체결 보유비율"
+            },
+            {
+              "report_resn": "보고사유"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "대량보유 상황보고",
+    "code": "D1"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "rcept_dt": "접수일자"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "repror": "보고자명"
+            },
+            {
+              "isu_exctv_rgist_at": "발행 회사 관계 임원(등기여부)"
+            },
+            {
+              "isu_exctv_ofcps": "발행 회사 관계 임원 직위"
+            },
+            {
+              "isu_main_shrholdr": "발행 회사 관계 주요 주주"
+            },
+            {
+              "sp_stock_lmp_cnt": "특정 증권 등 소유 수"
+            },
+            {
+              "sp_stock_lmp_irds_cnt": "특정 증권 등 소유 증감 수"
+            },
+            {
+              "sp_stock_lmp_rate": "특정 증권 등 소유 비율"
+            },
+            {
+              "sp_stock_lmp_irds_rate": "특정 증권 등 소유 증감 비율"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "임원ㆍ주요주주 소유보고",
+    "code": "D2"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "df_cn": "부도내용"
+            },
+            {
+              "df_amt": "부도금액"
+            },
+            {
+              "df_bnk": "부도발생은행"
+            },
+            {
+              "dfd": "최종부도(당좌거래정지)일자"
+            },
+            {
+              "df_rs": "부도사유 및 경위"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "부도발생",
+    "code": "E1"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "공시대상회사명"
+            },
+            {
+              "bsnsp_rm": "영업정지 분야"
+            },
+            {
+              "bsnsp_amt": "영업정지 내역(영업정지금액)"
+            },
+            {
+              "rsl": "영업정지 내역(최근매출총액)"
+            },
+            {
+              "sl_vs": "영업정지 내역(매출액 대비)"
+            },
+            {
+              "ls_atn": "영업정지 내역(대규모법인여부)"
+            },
+            {
+              "krx_stt_atn": "영업정지 내역(거래소 의무공시 해당 여부)"
+            },
+            {
+              "bsnsp_cn": "영업정지 내용"
+            },
+            {
+              "bsnsp_rs": "영업정지사유"
+            },
+            {
+              "ft_ctp": "향후대책"
+            },
+            {
+              "bsnsp_af": "영업정지영향"
+            },
+            {
+              "bsnspd": "영업정지일자"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석)"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참)"
+            },
+            {
+              "adt_a_atn": "감사(감사위원) 참석여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "영업정지",
+    "code": "E2"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "공시대상회사명"
+            },
+            {
+              "apcnt": "신청인 (회사와의 관계)"
+            },
+            {
+              "cpct": "관할법원"
+            },
+            {
+              "rq_rs": "신청사유"
+            },
+            {
+              "rqd": "신청일자"
+            },
+            {
+              "ft_ctp_sc": "향후대책 및 일정"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "회생절차 개시신청",
+    "code": "E3"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분 Y:유가, K:코스닥, N:코넥스, E:기타"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "ds_rs": "해산사유"
+            },
+            {
+              "ds_rsd": "해산사유발생일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석)"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참)"
+            },
+            {
+              "adt_a_atn": "감사(감사위원) 참석 여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "해산사유 발생",
+    "code": "E4"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "nstk_ostk_cnt": "신주의 종류와 수(보통주식)"
+            },
+            {
+              "nstk_estk_cnt": "신주의 종류와 수(기타주식)"
+            },
+            {
+              "fv_ps": "1주당 액면가액"
+            },
+            {
+              "bfic_tisstk_ostk": "증자전 발행주식총수(보통주식)"
+            },
+            {
+              "bfic_tisstk_estk": "증자전 발행주식총수(기타주식)"
+            },
+            {
+              "fdpp_fclt": "자금조달의 목적(시설자금)"
+            },
+            {
+              "fdpp_bsninh": "자금조달의 목적(영업양수자금)"
+            },
+            {
+              "fdpp_op": "자금조달의 목적(운영자금)"
+            },
+            {
+              "fdpp_dtrp": "자금조달의 목적(채무상환자금)"
+            },
+            {
+              "fdpp_ocsa": "자금조달의 목적(타법인 증권 취득자금)"
+            },
+            {
+              "fdpp_etc": "자금조달의 목적(기타자금)"
+            },
+            {
+              "ic_mthn": "증자방식"
+            },
+            {
+              "ssl_at": "공매도 해당여부"
+            },
+            {
+              "ssl_bgd": "공매도 시작일"
+            },
+            {
+              "ssl_edd": "공매도 종료일"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "유상증자 결정",
+    "code": "E5"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "nstk_ostk_cnt": "신주의 종류와 수(보통주식)"
+            },
+            {
+              "nstk_estk_cnt": "신주의 종류와 수(기타주식)"
+            },
+            {
+              "fv_ps": "1주당 액면가액"
+            },
+            {
+              "bfic_tisstk_ostk": "증자전 발행주식총수(보통주식)"
+            },
+            {
+              "bfic_tisstk_estk": "증자전 발행주식총수(기타주식)"
+            },
+            {
+              "nstk_asstd": "신주배정기준일"
+            },
+            {
+              "nstk_ascnt_ps_ostk": "1주당 신주배정 주식수(보통주식)"
+            },
+            {
+              "nstk_ascnt_ps_estk": "1주당 신주배정 주식수(기타주식)"
+            },
+            {
+              "nstk_dividrk": "신주의 배당기산일"
+            },
+            {
+              "nstk_dlprd": "신주권교부예정일"
+            },
+            {
+              "nstk_lstprd": "신주의 상장 예정일"
+            },
+            {
+              "bddd": "이사회결의일"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석명)"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참명)"
+            },
+            {
+              "adt_a_atn": "감사(감사위원)참석 여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "무상증자 결정",
+    "code": "E6"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "piic_nstk_ostk_cnt": "유상증자(신주의 종류와 수(보통주식 (주)))"
+            },
+            {
+              "piic_nstk_estk_cnt": "유상증자(신주의 종류와 수(기타주식 (주)))"
+            },
+            {
+              "piic_fv_ps": "유상증자(1주당 액면가액 (원))"
+            },
+            {
+              "piic_bfic_tisstk_ostk": "유상증자(증자전 발행주식총수 (주)(보통주식 (주)))"
+            },
+            {
+              "piic_bfic_tisstk_estk": "유상증자(증자전 발행주식총수 (주)(기타주식 (주)))"
+            },
+            {
+              "piic_fdpp_fclt": "유상증자(자금조달의 목적(시설자금 (원)))"
+            },
+            {
+              "piic_fdpp_bsninh": "유상증자(자금조달의 목적(영업양수자금 (원))), 2019년 12월 9일부터 추가됨"
+            },
+            {
+              "piic_fdpp_op": "유상증자(자금조달의 목적(운영자금 (원)))"
+            },
+            {
+              "piic_fdpp_dtrp": "유상증자(자금조달의 목적(채무상환자금 (원))), 2019년 12월 9일부터 추가됨"
+            },
+            {
+              "piic_fdpp_ocsa": "유상증자(자금조달의 목적(타법인 증권 취득자금 (원)))"
+            },
+            {
+              "piic_fdpp_etc": "유상증자(자금조달의 목적(기타자금 (원)))"
+            },
+            {
+              "piic_ic_mthn": "유상증자(증자방식)"
+            },
+            {
+              "fric_nstk_ostk_cnt": "무상증자(신주의 종류와 수(보통주식 (주)))"
+            },
+            {
+              "fric_nstk_estk_cnt": "무상증자(신주의 종류와 수(기타주식 (주)))"
+            },
+            {
+              "fric_fv_ps": "무상증자(1주당 액면가액 (원))"
+            },
+            {
+              "fric_bfic_tisstk_ostk": "무상증자(증자전 발행주식총수(보통주식 (주)))"
+            },
+            {
+              "fric_bfic_tisstk_estk": "무상증자(증자전 발행주식총수(기타주식 (주)))"
+            },
+            {
+              "fric_nstk_asstd": "무상증자(신주배정기준일)"
+            },
+            {
+              "fric_nstk_ascnt_ps_ostk": "무상증자(1주당 신주배정 주식수(보통주식 (주)))"
+            },
+            {
+              "fric_nstk_ascnt_ps_estk": "무상증자(1주당 신주배정 주식수(기타주식 (주)))"
+            },
+            {
+              "fric_nstk_dividrk": "무상증자(신주의 배당기산일)"
+            },
+            {
+              "fric_nstk_dlprd": "무상증자(신주권교부예정일)"
+            },
+            {
+              "fric_nstk_lstprd": "무상증자(신주의 상장 예정일)"
+            },
+            {
+              "fric_bddd": "무상증자(이사회결의일(결정일))"
+            },
+            {
+              "fric_od_a_at_t": "무상증자(사외이사 참석여부(참석(명)))"
+            },
+            {
+              "fric_od_a_at_b": "무상증자(사외이사 참석여부(불참(명)))"
+            },
+            {
+              "fric_adt_a_atn": "무상증자(감사(감사위원)참석 여부)"
+            },
+            {
+              "ssl_at": "공매도 해당여부"
+            },
+            {
+              "ssl_bgd": "공매도 시작일"
+            },
+            {
+              "ssl_edd": "공매도 종료일"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "유무상증자 결정",
+    "code": "E7"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "crstk_ostk_cnt": "감자주식의 종류와 수(보통주식)"
+            },
+            {
+              "crstk_estk_cnt": "감자주식의 종류와 수(기타주식)"
+            },
+            {
+              "fv_ps": "1주당 액면가액 (원)"
+            },
+            {
+              "bfcr_cpt": "감자전후 자본금(감자전)"
+            },
+            {
+              "atcr_cpt": "감자전후 자본금(감자후)"
+            },
+            {
+              "bfcr_tisstk_ostk": "감자전후 발행주식수(보통주식) 감자전"
+            },
+            {
+              "atcr_tisstk_ostk": "감자전후 발행주식수(보통주식) 감자후"
+            },
+            {
+              "bfcr_tisstk_estk": "감자전후 발행주식수(기타주식) 감자전"
+            },
+            {
+              "atcr_tisstk_estk": "감자전후 발행주식수(기타주식) 감자후"
+            },
+            {
+              "cr_rt_ostk": "감자비율(보통주식)"
+            },
+            {
+              "cr_rt_estk": "감자비율(기타주식)"
+            },
+            {
+              "cr_std": "감자기준일"
+            },
+            {
+              "cr_mth": "감자방법"
+            },
+            {
+              "cr_rs": "감자사유"
+            },
+            {
+              "crsc_gmtsck_prd": "감자일정(주주총회 예정일)"
+            },
+            {
+              "crsc_trnmsppd": "감자일정(명의개서정지기간)"
+            },
+            {
+              "crsc_osprpd": "감자일정(구주권 제출기간)"
+            },
+            {
+              "crsc_trspprpd": "감자일정(매매거래 정지예정기간)"
+            },
+            {
+              "crsc_osprpd_bgd": "감자일정(구주권 제출기간시작일)"
+            },
+            {
+              "crsc_osprpd_edd": "감자일정(구주권 제출기간종료일)"
+            },
+            {
+              "crsc_trspprpd_bgd": "감자일정(매매거래 정지예정기간시작일)"
+            },
+            {
+              "crsc_trspprpd_edd": "감자일정(매매거래 정지예정기간종료일)"
+            },
+            {
+              "crsc_nstkdlprd": "감자일정(신주권교부예정일)"
+            },
+            {
+              "crsc_nstklstprd": "감자일정(신주상장예정일)"
+            },
+            {
+              "cdobprpd_bgd": "채권자 이의제출기간(시작일)"
+            },
+            {
+              "cdobprpd_edd": "채권자 이의제출기간(종료일)"
+            },
+            {
+              "ospr_nstkdl_pl": "구주권제출 및 신주권교부장소"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석)"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참)"
+            },
+            {
+              "adt_a_atn": "감사(감사위원) 참석여부"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "감자 결정",
+    "code": "E8"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "mngt_pcbg_dd": "관리절차개시 결정일자"
+            },
+            {
+              "mngt_int": "관리기관"
+            },
+            {
+              "mngt_pd": "관리기간"
+            },
+            {
+              "mngt_rs": "관리사유"
+            },
+            {
+              "cfd": "확인일자"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "채권은행 등의 관리절차 개시",
+    "code": "E9"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "icnm": "사건의 명칭"
+            },
+            {
+              "ac_ap": "원고ㆍ신청인"
+            },
+            {
+              "rq_cn": "청구내용"
+            },
+            {
+              "cpct": "관할법원"
+            },
+            {
+              "ft_ctp": "향후대책"
+            },
+            {
+              "lgd": "제기일자"
+            },
+            {
+              "cfd": "확인일자"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "소송 등의 제기",
+    "code": "E10"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "lstprstk_ostk_cnt": "상장예정주식 종류ㆍ수(주)(보통주식)"
+            },
+            {
+              "lstprstk_estk_cnt": "상장예정주식 종류ㆍ수(주)(기타주식)"
+            },
+            {
+              "tisstk_ostk": "발행주식 총수(주)(보통주식)"
+            },
+            {
+              "tisstk_estk": "발행주식 총수(주)(기타주식)"
+            },
+            {
+              "psmth_nstk_sl": "공모방법(신주발행 (주))"
+            },
+            {
+              "psmth_ostk_sl": "공모방법(구주매출 (주))"
+            },
+            {
+              "fdpp": "자금조달(신주발행) 목적"
+            },
+            {
+              "lststk_orlst": "상장증권(원주상장 (주))"
+            },
+            {
+              "lststk_drlst": "상장증권(DR상장 (주))"
+            },
+            {
+              "lstex_nt": "상장거래소(소재국가)"
+            },
+            {
+              "lstpp": "해외상장목적"
+            },
+            {
+              "lstprd": "상장예정일자"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(감사위원)참석여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "해외 증권시장 주권등 상장 결정",
+    "code": "E11"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "dlststk_ostk_cnt": "상장폐지주식 종류ㆍ수(주)(보통주식)"
+            },
+            {
+              "dlststk_estk_cnt": "상장폐지주식 종류ㆍ수(주)(기타주식)"
+            },
+            {
+              "lstex_nt": "상장거래소(소재국가)"
+            },
+            {
+              "dlstrq_prd": "폐지신청예정일자"
+            },
+            {
+              "dlst_prd": "폐지(예정)일자"
+            },
+            {
+              "dlst_rs": "폐지사유"
+            },
+            {
+              "bddd": "이사회결의일(확인일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(감사위원)참석여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "해외 증권시장 주권등 상장폐지 결정",
+    "code": "E12"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "lststk_ostk_cnt": "상장주식 종류 및 수(보통주식(주))"
+            },
+            {
+              "lststk_estk_cnt": "상장주식 종류 및 수(기타주식(주))"
+            },
+            {
+              "lstex_nt": "상장거래소(소재국가)"
+            },
+            {
+              "stk_cd": "종목 명(code)"
+            },
+            {
+              "lstd": "상장일자"
+            },
+            {
+              "cfd": "확인일자"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "해외 증권시장 주권등 상장",
+    "code": "E13"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "lstex_nt": "상장거래소 및 소재국가"
+            },
+            {
+              "dlststk_ostk_cnt": "상장폐지주식의 종류(보통주식)"
+            },
+            {
+              "dlststk_estk_cnt": "상장폐지주식의 종류(기타주식)"
+            },
+            {
+              "tredd": "매매거래종료일"
+            },
+            {
+              "dlst_rs": "폐지사유"
+            },
+            {
+              "cfd": "확인일자"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "해외 증권시장 주권등 상장폐지",
+    "code": "E14"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "bd_tm": "사채의 종류(회차)"
+            },
+            {
+              "bd_knd": "사채의 종류(종류)"
+            },
+            {
+              "bd_fta": "사채의 권면총액"
+            },
+            {
+              "atcsc_rmislmt": "정관상 잔여 발행한도"
+            },
+            {
+              "ovis_fta": "해외발행 권면총액"
+            },
+            {
+              "ovis_fta_crn": "해외발행 권면총액 통화단위"
+            },
+            {
+              "ovis_ster": "해외발행 기준환율등"
+            },
+            {
+              "ovis_isar": "해외발행 발행지역"
+            },
+            {
+              "ovis_mktnm": "해외상장시 시장의 명칭"
+            },
+            {
+              "fdpp_fclt": "자금조달의 목적 시설자금"
+            },
+            {
+              "fdpp_bsninh": "자금조달의 목적 영업양수자금"
+            },
+            {
+              "fdpp_op": "자금조달의 목적 운영자금"
+            },
+            {
+              "fdpp_dtrp": "자금조달의 목적 채무상환자금"
+            },
+            {
+              "fdpp_ocsa": "자금조달의 목적 타법인 증권 취득자금"
+            },
+            {
+              "fdpp_etc": "자금조달의 목적 기타자금"
+            },
+            {
+              "bd_intr_ex": "사채의 이율 표면이자율"
+            },
+            {
+              "bd_intr_sf": "사채의 이율 만기이자율"
+            },
+            {
+              "bd_mtd": "사채만기일"
+            },
+            {
+              "bdis_mthn": "사채발행방법"
+            },
+            {
+              "cv_rt": "전환에 관한 사항 전환비율"
+            },
+            {
+              "cv_prc": "전환에 관한 사항 전환가액"
+            },
+            {
+              "cvisstk_knd": "전환에 관한 사항 전환에 따라 발행할 주식 종류"
+            },
+            {
+              "cvisstk_cnt": "전환에 관한 사항 전환에 따라 발행할 주식 주식수"
+            },
+            {
+              "cvisstk_tisstk_vs": "전환에 관한 사항 전환에 따라 발행할 주식 주식총수 대비 비율"
+            },
+            {
+              "cvrqpd_bgd": "전환에 관한 사항 전환청구기간 시작일"
+            },
+            {
+              "cvrqpd_edd": "전환에 관한 사항 전환청구기간 종료일"
+            },
+            {
+              "act_mktprcfl_cvprc_lwtrsprc": "전환에 관한 사항 시가하락에 따른 전환가액 조정 최저 조정가액"
+            },
+            {
+              "act_mktprcfl_cvprc_lwtrsprc_bs": "전환에 관한 사항 시가하락에 따른 전환가액 조정 최저 조정가액 근거"
+            },
+            {
+              "rmislmt_lt70p": "전환에 관한 사항 시가하락에 따른 전환가액 조정 발행당시 전환가액의 70% 미만으로 조정가능한 잔여 발행한도"
+            },
+            {
+              "abmg": "합병 관련 사항"
+            },
+            {
+              "sbd": "청약일"
+            },
+            {
+              "pymd": "납입일"
+            },
+            {
+              "rpmcmp": "대표주관회사"
+            },
+            {
+              "grint": "보증기관"
+            },
+            {
+              "bddd": "이사회결의일"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부 참석"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부 불참"
+            },
+            {
+              "adt_a_atn": "감사 참석여부"
+            },
+            {
+              "rs_sm_atn": "증권신고서 제출대상 여부"
+            },
+            {
+              "ex_sm_r": "제출을 면제받은 경우 그 사유"
+            },
+            {
+              "ovis_ltdtl": "당해 사채의 해외발행과 연계된 대차거래 내역"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "전환사채권 발행결정",
+    "code": "E15"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "bd_tm": "사채의 종류(회차)"
+            },
+            {
+              "bd_knd": "사채의 종류(종류)"
+            },
+            {
+              "bd_fta": "사채의 권면(전자등록)총액"
+            },
+            {
+              "atcsc_rmislmt": "정관상 잔여 발행한도"
+            },
+            {
+              "ovis_fta": "해외발행(권면(전자등록)총액)"
+            },
+            {
+              "ovis_fta_crn": "해외발행(권면(전자등록)총액(통화단위))"
+            },
+            {
+              "ovis_ster": "해외발행(기준환율등)"
+            },
+            {
+              "ovis_isar": "해외발행(발행지역)"
+            },
+            {
+              "ovis_mktnm": "해외발행(해외상장시 시장의 명칭)"
+            },
+            {
+              "fdpp_fclt": "자금조달의 목적(시설자금)"
+            },
+            {
+              "fdpp_bsninh": "자금조달의 목적(영업양수자금)"
+            },
+            {
+              "fdpp_op": "자금조달의 목적(운영자금)"
+            },
+            {
+              "fdpp_dtrp": "자금조달의 목적(채무상환자금)"
+            },
+            {
+              "fdpp_ocsa": "자금조달의 목적(타법인 증권 취득자금)"
+            },
+            {
+              "fdpp_etc": "자금조달의 목적(기타자금)"
+            },
+            {
+              "bd_intr_ex": "사채의 이율(표면이자율)"
+            },
+            {
+              "bd_intr_sf": "사채의 이율(만기이자율)"
+            },
+            {
+              "bd_mtd": "사채만기일"
+            },
+            {
+              "bdis_mthn": "사채발행방법"
+            },
+            {
+              "ex_rt": "신주인수권에 관한 사항(행사비율)"
+            },
+            {
+              "ex_prc": "신주인수권에 관한 사항(행사가액)"
+            },
+            {
+              "ex_prc_dmth": "신주인수권에 관한 사항(행사가액 결정방법)"
+            },
+            {
+              "bdwt_div_atn": "신주인수권에 관한 사항(사채와 인수권의 분리여부)"
+            },
+            {
+              "nstk_pym_mth": "신주인수권에 관한 사항(신주대금 납입방법)"
+            },
+            {
+              "nstk_isstk_knd": "신주인수권에 관한 사항(신주인수권 행사에 따라 발행할 주식(종류))"
+            },
+            {
+              "nstk_isstk_cnt": "신주인수권에 관한 사항(신주인수권 행사에 따라 발행할 주식(주식수))"
+            },
+            {
+              "nstk_isstk_tisstk_vs": "신주인수권에 관한 사항(신주인수권 행사에 따라 발행할 주식(주식총수 대비 비율))"
+            },
+            {
+              "expd_bgd": "신주인수권에 관한 사항(권리행사기간(시작일))"
+            },
+            {
+              "expd_edd": "신주인수권에 관한 사항(권리행사기간(종료일))"
+            },
+            {
+              "act_mktprcfl_cvprc_lwtrsprc": "신주인수권에 관한 사항(시가하락에 따른 행사가액 조정(최저 조정가액))"
+            },
+            {
+              "act_mktprcfl_cvprc_lwtrsprc_bs": "신주인수권에 관한 사항(시가하락에 따른 행사가액 조정(최저 조정가액 근거))"
+            },
+            {
+              "rmislmt_lt70p": "신주인수권에 관한 사항(시가하락에 따른 행사가액 조정(발행당시 행사가액의 70% 미만으로 조정가능한 잔여 발행한도))"
+            },
+            {
+              "abmg": "합병 관련 사항"
+            },
+            {
+              "sbd": "청약일"
+            },
+            {
+              "pymd": "납입일"
+            },
+            {
+              "rpmcmp": "대표주관회사"
+            },
+            {
+              "grint": "보증기관"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석 (명))"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참 (명))"
+            },
+            {
+              "adt_a_atn": "감사(감사위원) 참석여부"
+            },
+            {
+              "rs_sm_atn": "증권신고서 제출대상 여부"
+            },
+            {
+              "ex_sm_r": "제출을 면제받은 경우 그 사유"
+            },
+            {
+              "ovis_ltdtl": "당해 사채의 해외발행과 연계된 대차거래 내역"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "신주인수권부사채권 발행결정",
+    "code": "E16"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "bd_tm": "사채의 종류(회차)"
+            },
+            {
+              "bd_knd": "사채의 종류(종류)"
+            },
+            {
+              "bd_fta": "사채의 권면(전자등록)총액"
+            },
+            {
+              "ovis_fta": "해외발행(권면(전자등록)총액)"
+            },
+            {
+              "ovis_fta_crn": "해외발행(권면(전자등록)총액(통화단위))"
+            },
+            {
+              "ovis_ster": "해외발행(기준환율등)"
+            },
+            {
+              "ovis_isar": "해외발행(발행지역)"
+            },
+            {
+              "ovis_mktnm": "해외발행(해외상장시 시장의 명칭)"
+            },
+            {
+              "fdpp_fclt": "자금조달의 목적(시설자금)"
+            },
+            {
+              "fdpp_bsninh": "자금조달의 목적(영업양수자금 / 2019년 12월 9일부터 추가됨)"
+            },
+            {
+              "fdpp_op": "자금조달의 목적(운영자금)"
+            },
+            {
+              "fdpp_dtrp": "자금조달의 목적(채무상환자금 / 2019년 12월 9일부터 추가됨)"
+            },
+            {
+              "fdpp_ocsa": "자금조달의 목적(타법인 증권 취득자금)"
+            },
+            {
+              "fdpp_etc": "자금조달의 목적(기타자금)"
+            },
+            {
+              "bd_intr_ex": "사채의 이율(표면이자율 (%))"
+            },
+            {
+              "bd_intr_sf": "사채의 이율(만기이자율 (%))"
+            },
+            {
+              "bd_mtd": "사채만기일"
+            },
+            {
+              "bdis_mthn": "사채발행방법"
+            },
+            {
+              "ex_rt": "교환에 관한 사항(교환비율 (%))"
+            },
+            {
+              "ex_prc": "교환에 관한 사항(교환가액 (원/주))"
+            },
+            {
+              "ex_prc_dmth": "교환에 관한 사항(교환가액 결정방법)"
+            },
+            {
+              "extg": "교환에 관한 사항(교환대상(종류))"
+            },
+            {
+              "extg_stkcnt": "교환에 관한 사항(교환대상(주식수))"
+            },
+            {
+              "extg_tisstk_vs": "교환에 관한 사항(교환대상(주식총수 대비 비율(%)))"
+            },
+            {
+              "exrqpd_bgd": "교환에 관한 사항(교환청구기간(시작일))"
+            },
+            {
+              "exrqpd_edd": "교환에 관한 사항(교환청구기간(종료일))"
+            },
+            {
+              "sbd": "청약일"
+            },
+            {
+              "pymd": "납입일"
+            },
+            {
+              "rpmcmp": "대표주관회사"
+            },
+            {
+              "grint": "보증기관"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석)"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참)"
+            },
+            {
+              "adt_a_atn": "감사(감사위원) 참석여부"
+            },
+            {
+              "rs_sm_atn": "증권신고서 제출대상 여부"
+            },
+            {
+              "ex_sm_r": "제출을 면제받은 경우 그 사유"
+            },
+            {
+              "ovis_ltdtl": "당해 사채의 해외발행과 연계된 대차거래 내역"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "교환사채권 발행결정",
+    "code": "E17"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "mngt_pcsp_dd": "관리절차중단 결정일자"
+            },
+            {
+              "mngt_int": "관리기관"
+            },
+            {
+              "sp_rs": "중단사유"
+            },
+            {
+              "ft_ctp": "향후대책"
+            },
+            {
+              "cfd": "확인일자"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "채권은행 등의 관리절차 중단",
+    "code": "E18"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "bd_tm": "사채의 종류(회차)"
+            },
+            {
+              "bd_knd": "사채의 종류(종류)"
+            },
+            {
+              "bd_fta": "사채의 권면(전자등록)총액 (원)"
+            },
+            {
+              "ovis_fta": "해외발행(권면(전자등록)총액)"
+            },
+            {
+              "ovis_fta_crn": "해외발행(권면(전자등록)총액(통화단위))"
+            },
+            {
+              "ovis_ster": "해외발행(기준환율등)"
+            },
+            {
+              "ovis_isar": "해외발행(발행지역)"
+            },
+            {
+              "ovis_mktnm": "해외발행(해외상장시 시장의 명칭)"
+            },
+            {
+              "fdpp_fclt": "자금조달의 목적(시설자금 (원))"
+            },
+            {
+              "fdpp_bsninh": "자금조달의 목적(영업양수자금 (원))"
+            },
+            {
+              "fdpp_op": "자금조달의 목적(운영자금 (원))"
+            },
+            {
+              "fdpp_dtrp": "자금조달의 목적(채무상환자금 (원))"
+            },
+            {
+              "fdpp_ocsa": "자금조달의 목적(타법인 증권 취득자금 (원))"
+            },
+            {
+              "fdpp_etc": "자금조달의 목적(기타자금 (원))"
+            },
+            {
+              "bd_intr_sf": "사채의 이율(표면이자율 (%))"
+            },
+            {
+              "bd_intr_ex": "사채의 이율(만기이자율 (%))"
+            },
+            {
+              "bd_mtd": "사채만기일"
+            },
+            {
+              "dbtrs_sc": "채무재조정에 관한 사항(채무재조정의 범위)"
+            },
+            {
+              "sbd": "청약일"
+            },
+            {
+              "pymd": "납입일"
+            },
+            {
+              "rpmcmp": "대표주관회사"
+            },
+            {
+              "grint": "보증기관"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석 (명))"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참 (명))"
+            },
+            {
+              "adt_a_atn": "감사(감사위원) 참석여부"
+            },
+            {
+              "rs_sm_atn": "증권신고서 제출대상 여부"
+            },
+            {
+              "ex_sm_r": "제출을 면제받은 경우 그 사유"
+            },
+            {
+              "ovis_ltdtl": "당해 사채의 해외발행과 연계된 대차거래 내역"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "상각형 조건부자본증권 발행결정",
+    "code": "E19"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분 Y:유가, K:코스닥, N:코넥스, E:기타"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "rp_rsn": "보고 사유"
+            },
+            {
+              "ast_inhtrf_prc": "자산양수도 가액"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "자산양수도(기타), 풋백옵션"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분 Y:유가, K:코스닥, N:코넥스, E:기타"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "rp_rsn": "보고 사유"
+            },
+            {
+              "ast_inhtrf_prc": "자산양수도 가액"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "자산양수도(기타), 풋백옵션",
+    "code": "E20"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "iscmp_cmpnm": "발행회사명"
+            },
+            {
+              "iscmp_nt": "발행회사 국적"
+            },
+            {
+              "iscmp_rp": "발행회사 대표자"
+            },
+            {
+              "iscmp_cpt": "발행회사 자본금"
+            },
+            {
+              "iscmp_rl_cmpn": "회사와 이 발행회사와의 관계"
+            },
+            {
+              "iscmp_tisstk": "발행회사의 발행주식 총수"
+            },
+            {
+              "iscmp_mbsn": "발행회사의 주요사업"
+            },
+            {
+              "trfdtl_stkcnt": "양도주식수"
+            },
+            {
+              "trfdtl_trfprc": "양도금액"
+            },
+            {
+              "trfdtl_tast": "총자산"
+            },
+            {
+              "trfdtl_tast_vs": "총자산 대비 비율"
+            },
+            {
+              "trfdtl_ecpt": "자기자본"
+            },
+            {
+              "trfdtl_ecpt_vs": "자기자본 대비 비율"
+            },
+            {
+              "attrf_owstkcnt": "양도후 소유주식수"
+            },
+            {
+              "attrf_eqrt": "양도후 지분비율"
+            },
+            {
+              "trf_pp": "양도 목적"
+            },
+            {
+              "trf_prd": "양도 예정일자"
+            },
+            {
+              "dlptn_cmpnm": "거래상대방 회사명"
+            },
+            {
+              "dlptn_cpt": "거래상대방 자본금"
+            },
+            {
+              "dlptn_mbsn": "거래상대방 주요사업"
+            },
+            {
+              "dlptn_hoadd": "거래상대방 본점소재지"
+            },
+            {
+              "dlptn_rl_cmpn": "회사와 거래상대방 간의 관계"
+            },
+            {
+              "dl_pym": "거래대금 지급"
+            },
+            {
+              "exevl_atn": "외부평가 여부"
+            },
+            {
+              "exevl_bs_rs": "외부평가 근거 및 사유"
+            },
+            {
+              "exevl_intn": "외부 평가기관의 명칭"
+            },
+            {
+              "exevl_pd": "외부 평가기간"
+            },
+            {
+              "exevl_op": "외부 평가의견"
+            },
+            {
+              "bddd": "이사회 결의일"
+            },
+            {
+              "od_a_at_t": "사외이사 참석명"
+            },
+            {
+              "od_a_at_b": "사외이사 불참명"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "타법인 주식 및 출자증권 양도결정",
+    "code": "E21"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "ast_sen": "자산구분"
+            },
+            {
+              "ast_nm": "자산명"
+            },
+            {
+              "trfdtl_trfprc": "양도내역(양도금액(원))"
+            },
+            {
+              "trfdtl_tast": "양도내역(자산총액(원))"
+            },
+            {
+              "trfdtl_tast_vs": "양도내역(자산총액대비(%))"
+            },
+            {
+              "trf_pp": "양도목적"
+            },
+            {
+              "trf_af": "양도영향"
+            },
+            {
+              "trf_prd_ctr_cnsd": "양도예정일자(계약체결일)"
+            },
+            {
+              "trf_prd_trf_std": "양도예정일자(양도기준일)"
+            },
+            {
+              "trf_prd_rgs_prd": "양도예정일자(등기예정일)"
+            },
+            {
+              "dlptn_cmpnm": "거래상대방(회사명)"
+            },
+            {
+              "dlptn_cpt": "거래상대방(자본금)"
+            },
+            {
+              "dlptn_mbsn": "거래상대방(주요사업)"
+            },
+            {
+              "dlptn_hoadd": "거래상대방(본점소재지(주소))"
+            },
+            {
+              "dlptn_rl_cmpn": "거래상대방(회사와의 관계)"
+            },
+            {
+              "dl_pym": "거래대금지급"
+            },
+            {
+              "exevl_atn": "외부평가에 관한 사항(외부평가 여부)"
+            },
+            {
+              "exevl_bs_rs": "외부평가에 관한 사항(근거 및 사유)"
+            },
+            {
+              "exevl_intn": "외부평가에 관한 사항(외부평가기관의 명칭)"
+            },
+            {
+              "exevl_pd": "외부평가에 관한 사항(외부평가 기간)"
+            },
+            {
+              "exevl_op": "외부평가에 관한 사항(외부평가 의견)"
+            },
+            {
+              "gmtsck_spd_atn": "주주총회 특별결의 여부"
+            },
+            {
+              "gmtsck_prd": "주주총회 예정일자"
+            },
+            {
+              "aprskh_exrq": "주식매수청구권에 관한 사항(행사요건)"
+            },
+            {
+              "aprskh_plnprc": "주식매수청구권에 관한 사항(매수예정가격)"
+            },
+            {
+              "aprskh_ex_pc_mth_pd_pl": "주식매수청구권에 관한 사항(행사절차, 방법, 기간, 장소)"
+            },
+            {
+              "aprskh_pym_plpd_mth": "주식매수청구권에 관한 사항(지급예정시기, 지급방법)"
+            },
+            {
+              "aprskh_lmt": "주식매수청구권에 관한 사항(주식매수청구권 제한 관련 내용)"
+            },
+            {
+              "aprskh_ctref": "주식매수청구권에 관한 사항(계약에 미치는 효력)"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "유형자산 양도 결정",
+    "code": "E22"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "ast_sen": "자산구분"
+            },
+            {
+              "ast_nm": "자산명"
+            },
+            {
+              "inhdtl_inhprc": "양수내역(양수금액)"
+            },
+            {
+              "inhdtl_tast": "양수내역(자산총액)"
+            },
+            {
+              "inhdtl_tast_vs": "양수내역(자산총액대비)"
+            },
+            {
+              "inh_pp": "양수목적"
+            },
+            {
+              "inh_af": "양수영향"
+            },
+            {
+              "inh_prd_ctr_cnsd": "양수예정일자(계약체결일)"
+            },
+            {
+              "inh_prd_inh_std": "양수예정일자(양수기준일)"
+            },
+            {
+              "inh_prd_rgs_prd": "양수예정일자(등기예정일)"
+            },
+            {
+              "dlptn_cmpnm": "거래상대방(회사명)"
+            },
+            {
+              "dlptn_cpt": "거래상대방(자본금)"
+            },
+            {
+              "dlptn_mbsn": "거래상대방(주요사업)"
+            },
+            {
+              "dlptn_hoadd": "거래상대방(본점소재지)"
+            },
+            {
+              "dlptn_rl_cmpn": "거래상대방(회사와의 관계)"
+            },
+            {
+              "dl_pym": "거래대금지급"
+            },
+            {
+              "exevl_atn": "외부평가에 관한 사항(외부평가여부)"
+            },
+            {
+              "exevl_bs_rs": "외부평가에 관한 사항(근거 및 사유)"
+            },
+            {
+              "exevl_intn": "외부평가에 관한 사항(외부평가기관 명칭)"
+            },
+            {
+              "exevl_pd": "외부평가에 관한 사항(외부평가기간)"
+            },
+            {
+              "exevl_op": "외부평가에 관한 사항(외부평가 의견)"
+            },
+            {
+              "gmtsck_spd_atn": "주주총회 특별결의여부"
+            },
+            {
+              "gmtsck_prd": "주주총회 예정일자"
+            },
+            {
+              "aprskh_exrq": "주식매수청구권에 관한 사항(행사요건)"
+            },
+            {
+              "aprskh_plnprc": "주식매수청구권에 관한 사항(매수예정가격)"
+            },
+            {
+              "aprskh_ex_pc_mth_pd_pl": "주식매수청구권에 관한 사항(행사절차, 방법, 기간, 장소)"
+            },
+            {
+              "aprskh_pym_plpd_mth": "주식매수청구권에 관한 사항(지급예정시기, 지급방법)"
+            },
+            {
+              "aprskh_lmt": "주식매수청구권에 관한 사항(주식매수청구권제한관련내용)"
+            },
+            {
+              "aprskh_ctref": "주식매수청구권에 관한 사항(계약에미치는효력)"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석)"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참)"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "유형자산 양수 결정",
+    "code": "E23"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분 : Y(유가), K(코스닥), N(코넥스), E(기타)"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "iscmp_cmpnm": "발행회사(회사명)"
+            },
+            {
+              "iscmp_nt": "발행회사(국적)"
+            },
+            {
+              "iscmp_rp": "발행회사(대표자)"
+            },
+            {
+              "iscmp_cpt": "발행회사(자본금(원))공시대상회사(회사와 관계)"
+            },
+            {
+              "iscmp_tisstk": "발행회사(발행주식 총수(주))"
+            },
+            {
+              "iscmp_mbsn": "발행회사(주요사업)"
+            },
+            {
+              "l6m_tpa_nstkaq_atn": "최근 6월 이내 제3자 배정에 의한 신주취득 여부"
+            },
+            {
+              "inhdtl_stkcnt": "양수내역(양수주식수(주))"
+            },
+            {
+              "inhdtl_inhprc": "양수내역(양수금액(원))"
+            },
+            {
+              "inhdtl_tast": "양수내역(총자산(원))"
+            },
+            {
+              "inhdtl_tast_vs": "양수내역(총자산대비(%))"
+            },
+            {
+              "inhdtl_ecpt": "양수내역(자기자본(원))"
+            },
+            {
+              "inhdtl_ecpt_vs": "양수내역(자기자본대비(%))"
+            },
+            {
+              "atinh_owstkcnt": "양수후 소유주식수"
+            },
+            {
+              "atinh_eqrt": "양수후 지분비율(%)"
+            },
+            {
+              "inh_pp": "양수목적"
+            },
+            {
+              "inh_prd": "양수예정일자"
+            },
+            {
+              "dlptn_cmpnm": "거래상대방(회사명)"
+            },
+            {
+              "dlptn_cpt": "거래상대방(자본금(원))"
+            },
+            {
+              "dlptn_mbsn": "거래상대방(주요사업)"
+            },
+            {
+              "dlptn_hoadd": "거래상대방(본점소재지(주소))"
+            },
+            {
+              "dlptn_rl_cmpn": "거래상대방(회사와의 관계)"
+            },
+            {
+              "dl_pym": "거래대금지급"
+            },
+            {
+              "exevl_atn": "외부평가 여부"
+            },
+            {
+              "exevl_bs_rs": "근거 및 사유"
+            },
+            {
+              "exevl_intn": "외부평가기관의 명칭"
+            },
+            {
+              "exevl_pd": "외부평가 기간"
+            },
+            {
+              "exevl_op": "외부평가 의견"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사 참석여부"
+            },
+            {
+              "bdlst_atn": "우회상장 해당 여부"
+            },
+            {
+              "n6m_tpai_plann": "향후 6월이내 제3자배정 증자 등 계획"
+            },
+            {
+              "iscmp_bdlst_sf_atn": "발행회사(타법인)의 우회상장 요건 충족여부"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "타법인 주식 및 출자증권 양수결정",
+    "code": "E24"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "trf_bsn": "양도영업"
+            },
+            {
+              "trf_bsn_mc": "양도영업 주요내용"
+            },
+            {
+              "trf_prc": "양도가액(원)"
+            },
+            {
+              "ast_trf_bsn": "재무내용(원)(자산액(양도대상 영업부문(A)))"
+            },
+            {
+              "ast_cmp_all": "재무내용(원)(자산액(당사전체(B)))"
+            },
+            {
+              "ast_rt": "재무내용(원)(자산액(비중(%)(A/B)))"
+            },
+            {
+              "sl_trf_bsn": "재무내용(원)(매출액(양도대상 영업부문(A)))"
+            },
+            {
+              "sl_cmp_all": "재무내용(원)(매출액(당사전체(B)))"
+            },
+            {
+              "sl_rt": "재무내용(원)(매출액(비중(%)(A/B)))"
+            },
+            {
+              "trf_pp": "양도목적"
+            },
+            {
+              "trf_af": "양도영향"
+            },
+            {
+              "trf_prd_ctr_cnsd": "양도예정일자(계약체결일)"
+            },
+            {
+              "trf_prd_trf_std": "양도예정일자(양도기준일)"
+            },
+            {
+              "dlptn_cmpnm": "거래상대방(회사명(성명))"
+            },
+            {
+              "dlptn_cpt": "거래상대방(자본금(원))"
+            },
+            {
+              "dlptn_mbsn": "거래상대방(주요사업)"
+            },
+            {
+              "dlptn_hoadd": "거래상대방(본점소재지(주소))"
+            },
+            {
+              "dlptn_rl_cmpn": "거래상대방(회사와의 관계)"
+            },
+            {
+              "trf_pym": "양도대금지급"
+            },
+            {
+              "exevl_atn": "외부평가에 관한 사항(외부평가 여부)"
+            },
+            {
+              "exevl_bs_rs": "외부평가에 관한 사항(근거 및 사유)"
+            },
+            {
+              "exevl_intn": "외부평가에 관한 사항(외부평가기관의 명칭)"
+            },
+            {
+              "exevl_pd": "외부평가에 관한 사항(외부평가 기간)"
+            },
+            {
+              "exevl_op": "외부평가에 관한 사항(외부평가 의견)"
+            },
+            {
+              "gmtsck_spd_atn": "주주총회 특별결의 여부"
+            },
+            {
+              "gmtsck_prd": "주주총회 예정일자"
+            },
+            {
+              "aprskh_plnprc": "주식매수청구권에 관한 사항(매수예정가격)"
+            },
+            {
+              "aprskh_pym_plpd_mth": "주식매수청구권에 관한 사항(지급예정시기, 지급방법)"
+            },
+            {
+              "aprskh_lmt": "주식매수청구권에 관한 사항(주식매수청구권 제한 관련 내용)"
+            },
+            {
+              "aprskh_ctref": "주식매수청구권에 관한 사항(계약에 미치는 효력)"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "영업양도 결정",
+    "code": "E25"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "inh_bsn": "양수영업"
+            },
+            {
+              "inh_bsn_mc": "양수영업 주요내용"
+            },
+            {
+              "inh_prc": "양수가액(원)"
+            },
+            {
+              "absn_inh_atn": "영업전부의 양수 여부"
+            },
+            {
+              "ast_inh_bsn": "재무내용(원)(자산액(양수대상 영업부문(A)))"
+            },
+            {
+              "ast_cmp_all": "재무내용(원)(자산액(당사전체(B)))"
+            },
+            {
+              "ast_rt": "재무내용(원)(자산액(비중(%)(A/B)))"
+            },
+            {
+              "sl_inh_bsn": "재무내용(원)(매출액(양수대상 영업부문(A)))"
+            },
+            {
+              "sl_cmp_all": "재무내용(원)(매출액(당사전체(B)))"
+            },
+            {
+              "sl_rt": "재무내용(원)(매출액(비중(%)(A/B)))"
+            },
+            {
+              "dbt_inh_bsn": "재무내용(원)(부채액(양수대상 영업부문(A)))"
+            },
+            {
+              "dbt_cmp_all": "재무내용(원)(부채액(당사전체(B)))"
+            },
+            {
+              "dbt_rt": "재무내용(원)(부채액(비중(%)(A/B)))"
+            },
+            {
+              "inh_pp": "양수목적"
+            },
+            {
+              "inh_af": "양수영향"
+            },
+            {
+              "inh_prd_ctr_cnsd": "양수예정일자(계약체결일)"
+            },
+            {
+              "inh_prd_inh_std": "양수예정일자(양수기준일)"
+            },
+            {
+              "dlptn_cmpnm": "거래상대방(회사명(성명))"
+            },
+            {
+              "dlptn_cpt": "거래상대방(자본금(원))"
+            },
+            {
+              "dlptn_mbsn": "거래상대방(주요사업)"
+            },
+            {
+              "dlptn_hoadd": "거래상대방(본점소재지(주소))"
+            },
+            {
+              "dlptn_rl_cmpn": "거래상대방(회사와의 관계)"
+            },
+            {
+              "inh_pym": "양수대금지급"
+            },
+            {
+              "exevl_atn": "외부평가에 관한 사항(외부평가 여부)"
+            },
+            {
+              "exevl_bs_rs": "외부평가에 관한 사항(근거 및 사유)"
+            },
+            {
+              "exevl_intn": "외부평가에 관한 사항(외부평가기관의 명칭)"
+            },
+            {
+              "exevl_pd": "외부평가에 관한 사항(외부평가 기간)"
+            },
+            {
+              "exevl_op": "외부평가에 관한 사항(외부평가 의견)"
+            },
+            {
+              "gmtsck_spd_atn": "주주총회 특별결의 여부"
+            },
+            {
+              "gmtsck_prd": "주주총회 예정일자"
+            },
+            {
+              "aprskh_plnprc": "주식매수청구권에 관한 사항(매수예정가격)"
+            },
+            {
+              "aprskh_pym_plpd_mth": "주식매수청구권에 관한 사항(지급예정시기, 지급방법)"
+            },
+            {
+              "aprskh_lmt": "주식매수청구권에 관한 사항(주식매수청구권 제한 관련 내용)"
+            },
+            {
+              "aprskh_ctref": "주식매수청구권에 관한 사항(계약에 미치는 효력)"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "bdlst_atn": "우회상장 해당 여부"
+            },
+            {
+              "n6m_tpai_plann": "향후 6월이내 제3자배정 증자 등 계획"
+            },
+            {
+              "otcpr_bdlst_sf_atn": "타법인의 우회상장 요건 충족여부"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "영업양수 결정",
+    "code": "E26"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "ctr_prc_bfcc": "해지 전 계약금액(원)"
+            },
+            {
+              "ctr_prc_atcc": "해지 후 계약금액(원)"
+            },
+            {
+              "ctr_pd_bfcc_bgd": "해지 전 계약기간(시작일)"
+            },
+            {
+              "ctr_pd_bfcc_edd": "해지 전 계약기간(종료일)"
+            },
+            {
+              "cc_pp": "해지목적"
+            },
+            {
+              "cc_int": "해지기관"
+            },
+            {
+              "cc_prd": "해지예정일자"
+            },
+            {
+              "tp_rm_atcc": "해지후 신탁재산의 반환방법"
+            },
+            {
+              "aq_wtn_div_ostk": "해지 전 자기주식 보유현황(배당가능범위 내 취득(주)(보통주식))"
+            },
+            {
+              "aq_wtn_div_ostk_rt": "해지 전 자기주식 보유현황(배당가능범위 내 취득(주)(비율(%)))"
+            },
+            {
+              "aq_wtn_div_estk": "해지 전 자기주식 보유현황(배당가능범위 내 취득(주)(기타주식))"
+            },
+            {
+              "aq_wtn_div_estk_rt": "해지 전 자기주식 보유현황(배당가능범위 내 취득(주)(비율(%)))"
+            },
+            {
+              "eaq_ostk": "해지 전 자기주식 보유현황(기타취득(주)(보통주식))"
+            },
+            {
+              "eaq_ostk_rt": "해지 전 자기주식 보유현황(기타취득(주)(비율(%)))"
+            },
+            {
+              "eaq_estk": "해지 전 자기주식 보유현황(기타취득(주)(기타주식))"
+            },
+            {
+              "eaq_estk_rt": "해지 전 자기주식 보유현황(기타취득(주)(비율(%)))"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원)참석여부"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "자기주식취득 신탁계약 해지 결정",
+    "code": "E27"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "ctr_prc": "계약금액(원)"
+            },
+            {
+              "ctr_pd_bgd": "계약기간(시작일)"
+            },
+            {
+              "ctr_pd_edd": "계약기간(종료일)"
+            },
+            {
+              "ctr_pp": "계약목적"
+            },
+            {
+              "ctr_cns_int": "계약체결기관"
+            },
+            {
+              "ctr_cns_prd": "계약체결 예정일자"
+            },
+            {
+              "aq_wtn_div_ostk": "계약 전 자기주식 보유현황(배당가능범위 내 취득(주)(보통주식))"
+            },
+            {
+              "aq_wtn_div_ostk_rt": "계약 전 자기주식 보유현황(배당가능범위 내 취득(주)(비율(%)))"
+            },
+            {
+              "aq_wtn_div_estk": "계약 전 자기주식 보유현황(배당가능범위 내 취득(주)(기타주식))"
+            },
+            {
+              "aq_wtn_div_estk_rt": "계약 전 자기주식 보유현황(배당가능범위 내 취득(주)(비율(%)))"
+            },
+            {
+              "eaq_ostk": "계약 전 자기주식 보유현황(기타취득(주)(보통주식))"
+            },
+            {
+              "eaq_ostk_rt": "계약 전 자기주식 보유현황(기타취득(주)(비율(%)))"
+            },
+            {
+              "eaq_estk": "계약 전 자기주식 보유현황(기타취득(주)(기타주식))"
+            },
+            {
+              "eaq_estk_rt": "계약 전 자기주식 보유현황(기타취득(주)(비율(%)))"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원)참석여부"
+            },
+            {
+              "cs_iv_bk": "위탁투자중개업자"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "자기주식취득 신탁계약 체결 결정",
+    "code": "E28"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "dppln_stk_ostk": "처분예정주식(주)(보통주식)"
+            },
+            {
+              "dppln_stk_estk": "처분예정주식(주)(기타주식)"
+            },
+            {
+              "dpstk_prc_ostk": "처분 대상 주식가격(원)(보통주식)"
+            },
+            {
+              "dpstk_prc_estk": "처분 대상 주식가격(원)(기타주식)"
+            },
+            {
+              "dppln_prc_ostk": "처분예정금액(원)(보통주식)"
+            },
+            {
+              "dppln_prc_estk": "처분예정금액(원)(기타주식)"
+            },
+            {
+              "dpprpd_bgd": "처분예정기간(시작일)"
+            },
+            {
+              "dpprpd_edd": "처분예정기간(종료일)"
+            },
+            {
+              "dp_pp": "처분목적"
+            },
+            {
+              "dp_m_mkt": "처분방법(시장을 통한 매도(주))"
+            },
+            {
+              "dp_m_ovtm": "처분방법(시간외대량매매(주))"
+            },
+            {
+              "dp_m_otc": "처분방법(장외처분(주))"
+            },
+            {
+              "dp_m_etc": "처분방법(기타(주))"
+            },
+            {
+              "cs_iv_bk": "위탁투자중개업자"
+            },
+            {
+              "aq_wtn_div_ostk": "처분 전 자기주식 보유현황(배당가능이익 범위 내 취득(주)(보통주식))"
+            },
+            {
+              "aq_wtn_div_ostk_rt": "처분 전 자기주식 보유현황(배당가능이익 범위 내 취득(주)(비율(%)))"
+            },
+            {
+              "aq_wtn_div_estk": "처분 전 자기주식 보유현황(배당가능이익 범위 내 취득(주)(기타주식))"
+            },
+            {
+              "aq_wtn_div_estk_rt": "처분 전 자기주식 보유현황(배당가능이익 범위 내 취득(주)(비율(%)))"
+            },
+            {
+              "eaq_ostk": "처분 전 자기주식 보유현황(기타취득(주)(보통주식))"
+            },
+            {
+              "eaq_ostk_rt": "처분 전 자기주식 보유현황(기타취득(주)(비율(%)))"
+            },
+            {
+              "eaq_estk": "처분 전 자기주식 보유현황(기타취득(주)(기타주식))"
+            },
+            {
+              "eaq_estk_rt": "처분 전 자기주식 보유현황(기타취득(주)(비율(%)))"
+            },
+            {
+              "dp_dd": "처분결정일"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원)참석여부"
+            },
+            {
+              "d1_slodlm_ostk": "1일 매도 주문수량 한도(보통주식)"
+            },
+            {
+              "d1_slodlm_estk": "1일 매도 주문수량 한도(기타주식)"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "자기주식 처분 결정",
+    "code": "E29"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "aqpln_stk_ostk": "취득예정주식(주)(보통주식)"
+            },
+            {
+              "aqpln_stk_estk": "취득예정주식(주)(기타주식)"
+            },
+            {
+              "aqpln_prc_ostk": "취득예정금액(원)(보통주식)"
+            },
+            {
+              "aqpln_prc_estk": "취득예정금액(원)(기타주식)"
+            },
+            {
+              "aqexpd_bgd": "취득예상기간(시작일)"
+            },
+            {
+              "aqexpd_edd": "취득예상기간(종료일)"
+            },
+            {
+              "hdexpd_bgd": "보유예상기간(시작일)"
+            },
+            {
+              "hdexpd_edd": "보유예상기간(종료일)"
+            },
+            {
+              "aq_pp": "취득목적"
+            },
+            {
+              "aq_mth": "취득방법"
+            },
+            {
+              "cs_iv_bk": "위탁투자중개업자"
+            },
+            {
+              "aq_wtn_div_ostk": "취득 전 자기주식 보유현황(배당가능이익 범위 내 취득(주)(보통주식))"
+            },
+            {
+              "aq_wtn_div_ostk_rt": "배당가능이익 범위 내 취득(주)(비율(%))"
+            },
+            {
+              "aq_wtn_div_estk": "취득 전 자기주식 보유현황(배당가능이익 범위 내 취득(주)(기타주식))"
+            },
+            {
+              "aq_wtn_div_estk_rt": "배당가능이익 범위 내 취득(주)(비율(%))"
+            },
+            {
+              "eaq_ostk": "취득 전 자기주식 보유현황(기타취득(주)(보통주식))"
+            },
+            {
+              "eaq_ostk_rt": "취득 전 자기주식 보유현황(기타취득(주)(비율(%)))"
+            },
+            {
+              "eaq_estk": "취득 전 자기주식 보유현황(기타취득(주)(기타주식))"
+            },
+            {
+              "eaq_estk_rt": "취득 전 자기주식 보유현황(기타취득(주)(비율(%)))"
+            },
+            {
+              "aq_dd": "취득결정일"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원)참석여부"
+            },
+            {
+              "d1_prodlm_ostk": "1일 매수 주문수량 한도(보통주식)"
+            },
+            {
+              "d1_prodlm_estk": "1일 매수 주문수량 한도(기타주식)"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "자기주식 취득 결정",
+    "code": "E30"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "extr_sen": "구분"
+            },
+            {
+              "extr_stn": "교환ㆍ이전 형태"
+            },
+            {
+              "extr_tgcmp_cmpnm": "교환ㆍ이전 대상법인(회사명)"
+            },
+            {
+              "extr_tgcmp_rp": "교환ㆍ이전 대상법인(대표자)"
+            },
+            {
+              "extr_tgcmp_mbsn": "교환ㆍ이전 대상법인(주요사업)"
+            },
+            {
+              "extr_tgcmp_rl_cmpn": "교환ㆍ이전 대상법인(회사와의 관계)"
+            },
+            {
+              "extr_tgcmp_tisstk_ostk": "교환ㆍ이전 대상법인 발행주식총수(보통주식)"
+            },
+            {
+              "extr_tgcmp_tisstk_cstk": "교환ㆍ이전 대상법인 발행주식총수(종류주식)"
+            },
+            {
+              "rbsnfdtl_tast": "교환ㆍ이전 대상법인 최근 사업연도 요약재무내용(자산총계)"
+            },
+            {
+              "rbsnfdtl_tdbt": "교환ㆍ이전 대상법인 최근 사업연도 요약재무내용(부채총계)"
+            },
+            {
+              "rbsnfdtl_teqt": "교환ㆍ이전 대상법인 최근 사업연도 요약재무내용(자본총계)"
+            },
+            {
+              "rbsnfdtl_cpt": "교환ㆍ이전 대상법인 최근 사업연도 요약재무내용(자본금)"
+            },
+            {
+              "extr_rt": "교환ㆍ이전 비율"
+            },
+            {
+              "extr_rt_bs": "교환ㆍ이전 비율 산출근거"
+            },
+            {
+              "exevl_atn": "외부평가에 관한 사항(외부평가 여부)"
+            },
+            {
+              "exevl_bs_rs": "외부평가에 관한 사항(근거 및 사유)"
+            },
+            {
+              "exevl_intn": "외부평가에 관한 사항(외부평가기관의 명칭)"
+            },
+            {
+              "exevl_pd": "외부평가에 관한 사항(외부평가 기간)"
+            },
+            {
+              "exevl_op": "외부평가에 관한 사항(외부평가 의견)"
+            },
+            {
+              "extr_pp": "교환ㆍ이전 목적"
+            },
+            {
+              "extrsc_extrctrd": "교환ㆍ이전일정(교환ㆍ이전계약일)"
+            },
+            {
+              "extrsc_shddstd": "교환ㆍ이전일정(주주확정기준일)"
+            },
+            {
+              "extrsc_shclspd_bgd": "교환ㆍ이전일정(주주명부 폐쇄기간(시작일))"
+            },
+            {
+              "extrsc_shclspd_edd": "교환ㆍ이전일정(주주명부 폐쇄기간(종료일))"
+            },
+            {
+              "extrsc_extrop_rcpd_bgd": "교환ㆍ이전일정(주식교환ㆍ이전 반대의사 통지접수기간(시작일))"
+            },
+            {
+              "extrsc_extrop_rcpd_edd": "교환ㆍ이전일정(주식교환ㆍ이전 반대의사 통지접수기간(종료일))"
+            },
+            {
+              "extrsc_gmtsck_prd": "교환ㆍ이전일정(주주총회 예정일자)"
+            },
+            {
+              "extrsc_aprskh_expd_bgd": "교환ㆍ이전일정(주식매수청구권 행사기간(시작일))"
+            },
+            {
+              "extrsc_aprskh_expd_edd": "교환ㆍ이전일정(주식매수청구권 행사기간(종료일))"
+            },
+            {
+              "extrsc_osprpd_bgd": "교환ㆍ이전일정(구주권제출기간(시작일))"
+            },
+            {
+              "extrsc_osprpd_edd": "교환ㆍ이전일정(구주권제출기간(종료일))"
+            },
+            {
+              "extrsc_trspprpd": "교환ㆍ이전일정(매매거래정지예정기간)"
+            },
+            {
+              "extrsc_trspprpd_bgd": "교환ㆍ이전일정(매매거래정지예정기간(시작일))"
+            },
+            {
+              "extrsc_trspprpd_edd": "교환ㆍ이전일정(매매거래정지예정기간(종료일))"
+            },
+            {
+              "extrsc_extrdt": "교환ㆍ이전일정(교환ㆍ이전일자)"
+            },
+            {
+              "extrsc_nstkdlprd": "교환ㆍ이전일정(신주권교부예정일)"
+            },
+            {
+              "extrsc_nstklstprd": "교환ㆍ이전일정(신주의 상장예정일)"
+            },
+            {
+              "atextr_cpcmpnm": "교환ㆍ이전 후 완전모회사명"
+            },
+            {
+              "aprskh_plnprc": "주식매수청구권에 관한 사항(매수예정가격)"
+            },
+            {
+              "aprskh_pym_plpd_mth": "주식매수청구권에 관한 사항(지급예정시기, 지급방법)"
+            },
+            {
+              "aprskh_lmt": "주식매수청구권에 관한 사항(주식매수청구권 제한 관련 내용)"
+            },
+            {
+              "aprskh_ctref": "주식매수청구권에 관한 사항(계약에 미치는 효력)"
+            },
+            {
+              "bdlst_atn": "우회상장 해당 여부"
+            },
+            {
+              "otcpr_bdlst_sf_atn": "타법인의 우회상장 요건 충족 여부"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            },
+            {
+              "rs_sm_atn": "증권신고서 제출대상 여부"
+            },
+            {
+              "ex_sm_r": "제출을 면제받은 경우 그 사유"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "주식교환·이전결정",
+    "code": "E31"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "dvmg_mth": "분할합병 방법"
+            },
+            {
+              "dvmg_impef": "분할합병의 중요영향 및 효과"
+            },
+            {
+              "dv_trfbsnprt_cn": "분할에 관한 사항(분할로 이전할 사업 및 재산의 내용)"
+            },
+            {
+              "atdv_excmp_cmpnm": "분할에 관한 사항(분할 후 존속회사(회사명))"
+            },
+            {
+              "atdvfdtl_tast": "분할에 관한 사항(분할 후 존속회사(분할후 재무내용(원)(자산총계)))"
+            },
+            {
+              "atdvfdtl_tdbt": "분할에 관한 사항(분할 후 존속회사(분할후 재무내용(원)(부채총계)))"
+            },
+            {
+              "atdvfdtl_teqt": "분할에 관한 사항(분할 후 존속회사(분할후 재무내용(원)(자본총계)))"
+            },
+            {
+              "atdvfdtl_cpt": "분할에 관한 사항(분할 후 존속회사(분할후 재무내용(원)(자본금)))"
+            },
+            {
+              "atdvfdtl_std": "분할에 관한 사항(분할 후 존속회사(분할후 재무내용(원)(현재기준)))"
+            },
+            {
+              "atdv_excmp_exbsn_rsl": "분할에 관한 사항(분할 후 존속회사(존속사업부문 최근 사업연도매출액(원)))"
+            },
+            {
+              "atdv_excmp_mbsn": "분할에 관한 사항(분할 후 존속회사(주요사업))"
+            },
+            {
+              "atdv_excmp_atdv_lstmn_atn": "분할에 관한 사항(분할 후 존속회사(분할 후 상장유지 여부))"
+            },
+            {
+              "dvfcmp_cmpnm": "분할에 관한 사항(분할설립 회사(회사명))"
+            },
+            {
+              "ffdtl_tast": "분할에 관한 사항(분할설립 회사(설립시 재무내용(원)(자산총계)))"
+            },
+            {
+              "ffdtl_tdbt": "분할에 관한 사항(분할설립 회사(설립시 재무내용(원)(부채총계)))"
+            },
+            {
+              "ffdtl_teqt": "분할에 관한 사항(분할설립 회사(설립시 재무내용(원)(자본총계)))"
+            },
+            {
+              "ffdtl_cpt": "분할에 관한 사항(분할설립 회사(설립시 재무내용(원)(자본금)))"
+            },
+            {
+              "ffdtl_std": "분할에 관한 사항(분할설립 회사(설립시 재무내용(원)(현재기준)))"
+            },
+            {
+              "dvfcmp_nbsn_rsl": "분할에 관한 사항(분할설립 회사(신설사업부문 최근 사업연도 매출액(원)))"
+            },
+            {
+              "dvfcmp_mbsn": "분할에 관한 사항(분할설립 회사(주요사업))"
+            },
+            {
+              "dvfcmp_atdv_lstmn_at": "분할에 관한 사항(분할설립 회사(분할후 상장유지여부))"
+            },
+            {
+              "abcr_crrt": "분할에 관한 사항(감자에 관한 사항(감자비율(%)))"
+            },
+            {
+              "abcr_osprpd_bgd": "분할에 관한 사항(감자에 관한 사항(구주권 제출기간(시작일)))"
+            },
+            {
+              "abcr_osprpd_edd": "분할에 관한 사항(감자에 관한 사항(구주권 제출기간(종료일)))"
+            },
+            {
+              "abcr_trspprpd_bgd": "분할에 관한 사항(감자에 관한 사항(매매거래정지 예정기간(시작일)))"
+            },
+            {
+              "abcr_trspprpd_edd": "분할에 관한 사항(감자에 관한 사항(매매거래정지 예정기간(종료일)))"
+            },
+            {
+              "abcr_nstkascnd": "분할에 관한 사항(감자에 관한 사항(신주배정조건))"
+            },
+            {
+              "abcr_shstkcnt_rt_at_rs": "분할에 관한 사항(감자에 관한 사항(주주 주식수 비례여부 및 사유))"
+            },
+            {
+              "abcr_nstkasstd": "분할에 관한 사항(감자에 관한 사항(신주배정기준일))"
+            },
+            {
+              "abcr_nstkdlprd": "분할에 관한 사항(감자에 관한 사항(신주권교부예정일))"
+            },
+            {
+              "abcr_nstklstprd": "분할에 관한 사항(감자에 관한 사항(신주의 상장예정일))"
+            },
+            {
+              "mg_stn": "합병에 관한 사항(합병형태)"
+            },
+            {
+              "mgptncmp_cmpnm": "합병에 관한 사항(합병상대 회사(회사명))"
+            },
+            {
+              "mgptncmp_mbsn": "합병에 관한 사항(합병상대 회사(주요사업))"
+            },
+            {
+              "mgptncmp_rl_cmpn": "합병에 관한 사항(합병상대 회사(회사와의 관계))"
+            },
+            {
+              "rbsnfdtl_tast": "합병에 관한 사항(합병상대 회사(최근 사업연도 재무내용(원)(자산총계)))"
+            },
+            {
+              "rbsnfdtl_tdbt": "합병에 관한 사항(합병상대 회사(최근 사업연도 재무내용(원)(부채총계)))"
+            },
+            {
+              "rbsnfdtl_teqt": "합병에 관한 사항(합병상대 회사(최근 사업연도 재무내용(원)(자본총계)))"
+            },
+            {
+              "rbsnfdtl_cpt": "합병에 관한 사항(합병상대 회사(최근 사업연도 재무내용(원)(자본금)))"
+            },
+            {
+              "rbsnfdtl_sl": "합병에 관한 사항(합병상대 회사(최근 사업연도 재무내용(원)(매출액)))"
+            },
+            {
+              "rbsnfdtl_nic": "합병에 관한 사항(합병상대 회사(최근 사업연도 재무내용(원)(당기순이익)))"
+            },
+            {
+              "eadtat_intn": "합병에 관한 사항(합병상대 회사(외부감사 여부(기관명)))"
+            },
+            {
+              "eadtat_op": "합병에 관한 사항(합병상대 회사(외부감사 여부(감사의견)))"
+            },
+            {
+              "dvmgnstk_ostk_cnt": "합병에 관한 사항(분할합병신주의 종류와 수(주)(보통주식))"
+            },
+            {
+              "dvmgnstk_cstk_cnt": "합병에 관한 사항(분할합병신주의 종류와 수(주)(종류주식))"
+            },
+            {
+              "nmgcmp_cmpnm": "합병에 관한 사항(합병신설 회사(회사명))"
+            },
+            {
+              "nmgcmp_cpt": "합병에 관한 사항(합병신설 회사(자본금(원)))"
+            },
+            {
+              "nmgcmp_mbsn": "합병에 관한 사항(합병신설 회사(주요사업))"
+            },
+            {
+              "nmgcmp_rlst_atn": "합병에 관한 사항(합병신설 회사(재상장신청 여부))"
+            },
+            {
+              "dvmg_rt": "분할합병비율"
+            },
+            {
+              "dvmg_rt_bs": "분할합병비율 산출근거"
+            },
+            {
+              "exevl_atn": "외부평가에 관한 사항(외부평가 여부)"
+            },
+            {
+              "exevl_bs_rs": "외부평가에 관한 사항(근거 및 사유)"
+            },
+            {
+              "exevl_intn": "외부평가에 관한 사항(외부평가기관의 명칭)"
+            },
+            {
+              "exevl_pd": "외부평가에 관한 사항(외부평가 기간)"
+            },
+            {
+              "exevl_op": "외부평가에 관한 사항(외부평가 의견)"
+            },
+            {
+              "dvmgsc_dvmgctrd": "분할합병일정(분할합병계약일)"
+            },
+            {
+              "dvmgsc_shddstd": "분할합병일정(주주확정기준일)"
+            },
+            {
+              "dvmgsc_shclspd_bgd": "분할합병일정(주주명부 폐쇄기간(시작일))"
+            },
+            {
+              "dvmgsc_shclspd_edd": "분할합병일정(주주명부 폐쇄기간(종료일))"
+            },
+            {
+              "dvmgsc_dvmgop_rcpd_bgd": "분할합병일정(분할합병반대의사통지 접수기간(시작일))"
+            },
+            {
+              "dvmgsc_dvmgop_rcpd_edd": "분할합병일정(분할합병반대의사통지 접수기간(종료일))"
+            },
+            {
+              "dvmgsc_gmtsck_prd": "분할합병일정(주주총회예정일자)"
+            },
+            {
+              "dvmgsc_aprskh_expd_bgd": "분할합병일정(주식매수청구권 행사기간(시작일))"
+            },
+            {
+              "dvmgsc_aprskh_expd_edd": "분할합병일정(주식매수청구권 행사기간(종료일))"
+            },
+            {
+              "dvmgsc_cdobprpd_bgd": "분할합병일정(채권자 이의 제출기간(시작일))"
+            },
+            {
+              "dvmgsc_cdobprpd_edd": "분할합병일정(채권자 이의 제출기간(종료일))"
+            },
+            {
+              "dvmgsc_dvmgdt": "분할합병일정(분할합병기일)"
+            },
+            {
+              "dvmgsc_ergmd": "분할합병일정(종료보고 총회일)"
+            },
+            {
+              "dvmgsc_dvmgrgsprd": "분할합병일정(분할합병등기예정일)"
+            },
+            {
+              "bdlst_atn": "우회상장 해당 여부"
+            },
+            {
+              "otcpr_bdlst_sf_atn": "타법인의 우회상장 요건 충족여부"
+            },
+            {
+              "aprskh_exrq": "주식매수청구권에 관한 사항(행사요건)"
+            },
+            {
+              "aprskh_plnprc": "주식매수청구권에 관한 사항(매수예정가격)"
+            },
+            {
+              "aprskh_ex_pc_mth_pd_pl": "주식매수청구권에 관한 사항(행사절차, 방법, 기간, 장소)"
+            },
+            {
+              "aprskh_pym_plpd_mth": "주식매수청구권에 관한 사항(지급예정시기, 지급방법)"
+            },
+            {
+              "aprskh_lmt": "주식매수청구권에 관한 사항(주식매수청구권 제한 관련 내용)"
+            },
+            {
+              "aprskh_ctref": "주식매수청구권에 관한 사항(계약에 미치는 효력)"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            },
+            {
+              "rs_sm_atn": "증권신고서 제출대상 여부"
+            },
+            {
+              "ex_sm_r": "제출을 면제받은 경우 그 사유"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "회사분할합병 결정",
+    "code": "E32"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "dv_mth": "분할방법"
+            },
+            {
+              "dv_impef": "분할의 중요영향 및 효과"
+            },
+            {
+              "dv_rt": "분할비율"
+            },
+            {
+              "dv_trfbsnprt_cn": "분할로 이전할 사업 및 재산의 내용"
+            },
+            {
+              "atdv_excmp_cmpnm": "분할 후 존속회사(회사명)"
+            },
+            {
+              "atdvfdtl_tast": "분할 후 존속회사(분할후 재무내용(원)(자산총계))"
+            },
+            {
+              "atdvfdtl_tdbt": "분할 후 존속회사(분할후 재무내용(원)(부채총계))"
+            },
+            {
+              "atdvfdtl_teqt": "분할 후 존속회사(분할후 재무내용(원)(자본총계))"
+            },
+            {
+              "atdvfdtl_cpt": "분할 후 존속회사(분할후 재무내용(원)(자본금))"
+            },
+            {
+              "atdvfdtl_std": "분할 후 존속회사(분할후 재무내용(원)(현재기준))"
+            },
+            {
+              "atdv_excmp_exbsn_rsl": "분할 후 존속회사(존속사업부문 최근 사업연도매출액(원))"
+            },
+            {
+              "atdv_excmp_mbsn": "분할 후 존속회사(주요사업)"
+            },
+            {
+              "atdv_excmp_atdv_lstmn_atn": "분할 후 존속회사(분할 후 상장유지 여부)"
+            },
+            {
+              "dvfcmp_cmpnm": "분할설립회사(회사명)"
+            },
+            {
+              "ffdtl_tast": "분할설립회사(설립시 재무내용(원)(자산총계))"
+            },
+            {
+              "ffdtl_tdbt": "분할설립회사(설립시 재무내용(원)(부채총계))"
+            },
+            {
+              "ffdtl_teqt": "분할설립회사(설립시 재무내용(원)(자본총계))"
+            },
+            {
+              "ffdtl_cpt": "분할설립회사(설립시 재무내용(원)(자본금))"
+            },
+            {
+              "ffdtl_std": "분할설립회사(설립시 재무내용(원)(현재기준))"
+            },
+            {
+              "dvfcmp_nbsn_rsl": "분할설립회사(신설사업부문 최근 사업연도 매출액(원))"
+            },
+            {
+              "dvfcmp_mbsn": "분할설립회사(주요사업)"
+            },
+            {
+              "dvfcmp_rlst_atn": "분할설립회사(재상장신청 여부)"
+            },
+            {
+              "abcr_crrt": "감자에 관한 사항(감자비율(%))"
+            },
+            {
+              "abcr_osprpd_bgd": "감자에 관한 사항(구주권 제출기간(시작일))"
+            },
+            {
+              "abcr_osprpd_edd": "감자에 관한 사항(구주권 제출기간(종료일))"
+            },
+            {
+              "abcr_trspprpd_bgd": "감자에 관한 사항(매매거래정지 예정기간(시작일))"
+            },
+            {
+              "abcr_trspprpd_edd": "감자에 관한 사항(매매거래정지 예정기간(종료일))"
+            },
+            {
+              "abcr_nstkascnd": "감자에 관한 사항(신주배정조건)"
+            },
+            {
+              "abcr_shstkcnt_rt_at_rs": "감자에 관한 사항(주주 주식수 비례여부 및 사유)"
+            },
+            {
+              "abcr_nstkasstd": "감자에 관한 사항(신주배정기준일)"
+            },
+            {
+              "abcr_nstkdlprd": "감자에 관한 사항(신주권교부예정일)"
+            },
+            {
+              "abcr_nstklstprd": "감자에 관한 사항(신주의 상장예정일)"
+            },
+            {
+              "gmtsck_prd": "주주총회 예정일"
+            },
+            {
+              "cdobprpd_bgd": "채권자 이의제출기간(시작일)"
+            },
+            {
+              "cdobprpd_edd": "채권자 이의제출기간(종료일)"
+            },
+            {
+              "dvdt": "분할기일"
+            },
+            {
+              "dvrgsprd": "분할등기 예정일"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            },
+            {
+              "rs_sm_atn": "증권신고서 제출대상 여부"
+            },
+            {
+              "ex_sm_r": "제출을 면제받은 경우 그 사유"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "회사분할 결정",
+    "code": "E33"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "mg_mth": "합병방법"
+            },
+            {
+              "mg_stn": "합병형태"
+            },
+            {
+              "mg_pp": "합병목적"
+            },
+            {
+              "mg_rt": "합병비율"
+            },
+            {
+              "mg_rt_bs": "합병비율 산출근거"
+            },
+            {
+              "exevl_atn": "외부평가 여부"
+            },
+            {
+              "exevl_bs_rs": "외부평가 근거 및 사유"
+            },
+            {
+              "exevl_intn": "외부평가기관의 명칭"
+            },
+            {
+              "exevl_pd": "외부평가 기간"
+            },
+            {
+              "exevl_op": "외부평가 의견"
+            },
+            {
+              "mgnstk_ostk_cnt": "합병신주의 보통주식 종류와 수"
+            },
+            {
+              "mgnstk_cstk_cnt": "합병신주의 종류주식 종류와 수"
+            },
+            {
+              "mgptncmp_cmpnm": "합병상대회사명"
+            },
+            {
+              "mgptncmp_mbsn": "합병상대회사 주요사업"
+            },
+            {
+              "mgptncmp_rl_cmpn": "합병상대회사와의 관계"
+            },
+            {
+              "rbsnfdtl_tast": "합병상대회사 최근 사업연도 자산총계"
+            },
+            {
+              "rbsnfdtl_tdbt": "합병상대회사 최근 사업연도 부채총계"
+            },
+            {
+              "rbsnfdtl_teqt": "합병상대회사 최근 사업연도 자본총계"
+            },
+            {
+              "rbsnfdtl_cpt": "합병상대회사 최근 사업연도 자본금"
+            },
+            {
+              "rbsnfdtl_sl": "합병상대회사 최근 사업연도 매출액"
+            },
+            {
+              "rbsnfdtl_nic": "합병상대회사 최근 사업연도 당기순이익"
+            },
+            {
+              "eadtat_intn": "합병상대회사 외부감사기관의 명칭"
+            },
+            {
+              "eadtat_op": "합병상대회사 외부감사 의견"
+            },
+            {
+              "nmgcmp_cmpnm": "신설합병회사명"
+            },
+            {
+              "ffdtl_tast": "신설합병회사 설립시 자산총계"
+            },
+            {
+              "ffdtl_tdbt": "신설합병회사 설립시 부채총계"
+            },
+            {
+              "ffdtl_teqt": "신설합병회사 설립시 자본총계"
+            },
+            {
+              "ffdtl_cpt": "신설합병회사 설립시 자본금"
+            },
+            {
+              "ffdtl_std": "신설합병회사 설립시 현재기준"
+            },
+            {
+              "nmgcmp_nbsn_rsl": "신설합병회사 신설사업부문 최근 사업연도 매출액"
+            },
+            {
+              "nmgcmp_mbsn": "신설합병회사 주요사업"
+            },
+            {
+              "nmgcmp_rlst_atn": "신설합병회사 재상장신청 여부"
+            },
+            {
+              "mgsc_mgctrd": "합병일정 합병계약일"
+            },
+            {
+              "mgsc_shddstd": "합병일정 주주확정기준일"
+            },
+            {
+              "mgsc_shclspd_bgd": "합병일정 주주명부 폐쇄기간 시작일"
+            },
+            {
+              "mgsc_shclspd_edd": "합병일정 주주명부 폐쇄기간 종료일"
+            },
+            {
+              "mgsc_mgop_rcpd_bgd": "합병일정 합병반대의사통지 접수기간 시작일"
+            },
+            {
+              "mgsc_mgop_rcpd_edd": "합병일정 합병반대의사통지 접수기간 종료일"
+            },
+            {
+              "mgsc_gmtsck_prd": "합병일정 주주총회예정일자"
+            },
+            {
+              "mgsc_aprskh_expd_bgd": "합병일정 주식매수청구권 행사기간 시작일"
+            },
+            {
+              "mgsc_aprskh_expd_edd": "합병일정 주식매수청구권 행사기간 종료일"
+            },
+            {
+              "mgsc_osprpd_bgd": "합병일정 구주권 제출기간 시작일"
+            },
+            {
+              "mgsc_osprpd_edd": "합병일정 구주권 제출기간 종료일"
+            },
+            {
+              "mgsc_trspprpd_bgd": "합병일정 매매거래 정지예정기간 시작일"
+            },
+            {
+              "mgsc_trspprpd_edd": "합병일정 매매거래 정지예정기간 종료일"
+            },
+            {
+              "mgsc_cdobprpd_bgd": "합병일정 채권자이의 제출기간 시작일"
+            },
+            {
+              "mgsc_cdobprpd_edd": "합병일정 채권자이의 제출기간 종료일"
+            },
+            {
+              "mgsc_mgdt": "합병일정 합병기일"
+            },
+            {
+              "mgsc_ergmd": "합병일정 종료보고 총회일"
+            },
+            {
+              "mgsc_mgrgsprd": "합병일정 합병등기예정일자"
+            },
+            {
+              "mgsc_nstkdlprd": "합병일정 신주권교부예정일"
+            },
+            {
+              "mgsc_nstklstprd": "합병일정 신주의 상장예정일"
+            },
+            {
+              "bdlst_atn": "우회상장 해당 여부"
+            },
+            {
+              "otcpr_bdlst_sf_atn": "타법인의 우회상장 요건 충족여부"
+            },
+            {
+              "aprskh_plnprc": "주식매수청구권에 관한 사항 매수예정가격"
+            },
+            {
+              "aprskh_pym_plpd_mth": "주식매수청구권에 관한 사항 지급예정시기, 지급방법"
+            },
+            {
+              "aprskh_ctref": "주식매수청구권에 관한 사항 계약에 미치는 효력"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원)참석여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "rs_sm_atn": "증권신고서 제출대상 여부"
+            },
+            {
+              "ex_sm_r": "제출을 면제받은 경우 그 사유"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "회사합병 결정",
+    "code": "E34"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "stkrtbd_kndn": "주권 관련 사채권의 종류"
+            },
+            {
+              "tm": "주권 관련 사채권의 종류(회차)"
+            },
+            {
+              "knd": "주권 관련 사채권의 종류(종류)"
+            },
+            {
+              "bdiscmp_cmpnm": "사채권 발행회사(회사명)"
+            },
+            {
+              "bdiscmp_nt": "사채권 발행회사(국적)"
+            },
+            {
+              "bdiscmp_rp": "사채권 발행회사(대표자)"
+            },
+            {
+              "bdiscmp_cpt": "사채권 발행회사(자본금(원))"
+            },
+            {
+              "bdiscmp_rl_cmpn": "사채권 발행회사(회사와 관계)"
+            },
+            {
+              "bdiscmp_tisstk": "사채권 발행회사(발행주식 총수(주))"
+            },
+            {
+              "bdiscmp_mbsn": "사채권 발행회사(주요사업)"
+            },
+            {
+              "l6m_tpa_nstkaq_atn": "최근 6월 이내 제3자 배정에 의한 신주취득 여부"
+            },
+            {
+              "inhdtl_bd_fta": "양수내역(사채의 권면(전자등록)총액(원))"
+            },
+            {
+              "inhdtl_inhprc": "양수내역(양수금액(원)(A))"
+            },
+            {
+              "inhdtl_tast": "양수내역(총자산(원)(B))"
+            },
+            {
+              "inhdtl_tast_vs": "양수내역(총자산대비(%)(A/B))"
+            },
+            {
+              "inhdtl_ecpt": "양수내역(자기자본(원)(C))"
+            },
+            {
+              "inhdtl_ecpt_vs": "양수내역(자기자본대비(%)(A/C))"
+            },
+            {
+              "inh_pp": "양수목적"
+            },
+            {
+              "inh_prd": "양수예정일자"
+            },
+            {
+              "dlptn_cmpnm": "거래상대방(회사명(성명))"
+            },
+            {
+              "dlptn_cpt": "거래상대방(자본금(원))"
+            },
+            {
+              "dlptn_mbsn": "거래상대방(주요사업)"
+            },
+            {
+              "dlptn_hoadd": "거래상대방(본점소재지(주소))"
+            },
+            {
+              "dlptn_rl_cmpn": "거래상대방(회사와의 관계)"
+            },
+            {
+              "dl_pym": "거래대금지급"
+            },
+            {
+              "exevl_atn": "외부평가에 관한 사항(외부평가 여부)"
+            },
+            {
+              "exevl_bs_rs": "외부평가에 관한 사항(근거 및 사유)"
+            },
+            {
+              "exevl_intn": "외부평가에 관한 사항(외부평가기관의 명칭)"
+            },
+            {
+              "exevl_pd": "외부평가에 관한 사항(외부평가 기간)"
+            },
+            {
+              "exevl_op": "외부평가에 관한 사항(외부평가 의견)"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "주권 관련 사채권 양수 결정",
+    "code": "E35"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "stkrtbd_kndn": "주권 관련 사채권의 종류"
+            },
+            {
+              "tm": "회차"
+            },
+            {
+              "knd": "종류"
+            },
+            {
+              "aqd": "취득일자"
+            },
+            {
+              "bdiscmp_cmpnm": "사채권 발행회사(회사명)"
+            },
+            {
+              "bdiscmp_nt": "사채권 발행회사(국적)"
+            },
+            {
+              "bdiscmp_rp": "사채권 발행회사(대표자)"
+            },
+            {
+              "bdiscmp_cpt": "사채권 발행회사(자본금(원))"
+            },
+            {
+              "bdiscmp_rl_cmpn": "사채권 발행회사(회사와 관계)"
+            },
+            {
+              "bdiscmp_tisstk": "사채권 발행회사(발행주식 총수(주))"
+            },
+            {
+              "bdiscmp_mbsn": "사채권 발행회사(주요사업)"
+            },
+            {
+              "trfdtl_bd_fta": "양도내역(사채의 권면(전자등록)총액(원))"
+            },
+            {
+              "trfdtl_trfprc": "양도내역(양도금액(원)(A))"
+            },
+            {
+              "trfdtl_tast": "양도내역(총자산(원)(B))"
+            },
+            {
+              "trfdtl_tast_vs": "양도내역(총자산대비(%)(A/B))"
+            },
+            {
+              "trfdtl_ecpt": "양도내역(자기자본(원)(C))"
+            },
+            {
+              "trfdtl_ecpt_vs": "양도내역(자기자본대비(%)(A/C))"
+            },
+            {
+              "trf_pp": "양도목적"
+            },
+            {
+              "trf_prd": "양도예정일자"
+            },
+            {
+              "dlptn_cmpnm": "거래상대방(회사명(성명))"
+            },
+            {
+              "dlptn_cpt": "거래상대방(자본금(원))"
+            },
+            {
+              "dlptn_mbsn": "거래상대방(주요사업)"
+            },
+            {
+              "dlptn_hoadd": "거래상대방(본점소재지(주소))"
+            },
+            {
+              "dlptn_rl_cmpn": "거래상대방(회사와의 관계)"
+            },
+            {
+              "dl_pym": "거래대금지급"
+            },
+            {
+              "exevl_atn": "외부평가에 관한 사항(외부평가 여부)"
+            },
+            {
+              "exevl_bs_rs": "외부평가에 관한 사항(근거 및 사유)"
+            },
+            {
+              "exevl_intn": "외부평가에 관한 사항(외부평가기관의 명칭)"
+            },
+            {
+              "exevl_pd": "외부평가에 관한 사항(외부평가 기간)"
+            },
+            {
+              "exevl_op": "외부평가에 관한 사항(외부평가 의견)"
+            },
+            {
+              "bddd": "이사회결의일(결정일)"
+            },
+            {
+              "od_a_at_t": "사외이사 참석여부(참석(명))"
+            },
+            {
+              "od_a_at_b": "사외이사 참석여부(불참(명))"
+            },
+            {
+              "adt_a_atn": "감사(사외이사가 아닌 감사위원) 참석여부"
+            },
+            {
+              "ftc_stt_atn": "공정거래위원회 신고대상 여부"
+            },
+            {
+              "popt_ctr_atn": "풋옵션 등 계약 체결여부"
+            },
+            {
+              "popt_ctr_cn": "계약내용"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "주권 관련 사채권 양도 결정",
+    "code": "E36"
+  },
+  {
+    "format": "JSON",
+    "response": [
+      {
+        "result": {
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      },
+      {
+        "group": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "stn": "형태"
+            },
+            {
+              "bddd": "이사회 결의일"
+            },
+            {
+              "ctrd": "계약일"
+            },
+            {
+              "gmtsck_shddstd": "주주총회를 위한 주주확정일"
+            },
+            {
+              "ap_gmtsck": "승인을 위한 주주총회일"
+            },
+            {
+              "aprskh_pd_bgd": "주식매수청구권 행사 기간 및 가격(시작일)"
+            },
+            {
+              "aprskh_pd_edd": "주식매수청구권 행사 기간 및 가격(종료일)"
+            },
+            {
+              "aprskh_prc": "주식매수청구권 행사 가격((주식매수청구가격-회사제시))"
+            },
+            {
+              "mgdt_etc": "합병기일등"
+            },
+            {
+              "rt_vl": "비율 또는 가액"
+            },
+            {
+              "exevl_int": "외부평가기관"
+            },
+            {
+              "grtmn_etc": "지급 교부금 등"
+            },
+            {
+              "rpt_rcpn": "주요사항보고서(접수번호)"
+            }
+          ],
+          "title": "그룹명칭"
+        }
+      },
+      {
+        "group": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "kndn": "종류"
+            },
+            {
+              "cnt": "수량"
+            },
+            {
+              "fv": "액면가액"
+            },
+            {
+              "slprc": "모집(매출)가액"
+            },
+            {
+              "slta": "모집(매출)총액"
+            }
+          ],
+          "title": "그룹명칭"
+        }
+      },
+      {
+        "group": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "cmpnm": "회사명"
+            },
+            {
+              "sen": "구분"
+            },
+            {
+              "tast": "총자산"
+            },
+            {
+              "cpt": "자본금"
+            },
+            {
+              "isstk_knd": "발행주식수(주식의종류)"
+            },
+            {
+              "isstk_cnt": "발행주식수(주식수)"
+            }
+          ],
+          "title": "그룹명칭"
+        }
+      }
+    ],
+    "title": "주식의포괄적교환·이전",
+    "code": "F1"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "group": [
+            {
+              "title": "그룹명칭(일반사항)"
+            },
+            {
+              "list": [
+                {
+                  "rcept_no": "접수번호"
+                },
+                {
+                  "corp_cls": "법인구분"
+                },
+                {
+                  "corp_code": "고유번호"
+                },
+                {
+                  "corp_name": "회사명"
+                },
+                {
+                  "stn": "형태"
+                },
+                {
+                  "bddd": "이사회 결의일"
+                },
+                {
+                  "ctrd": "계약일"
+                },
+                {
+                  "gmtsck_shddstd": "주주총회를 위한 주주확정일"
+                },
+                {
+                  "ap_gmtsck": "승인을 위한 주주총회일"
+                },
+                {
+                  "aprskh_pd_bgd": "주식매수청구권 행사 기간 및 가격(시작일)"
+                },
+                {
+                  "aprskh_pd_edd": "주식매수청구권 행사 기간 및 가격(종료일)"
+                },
+                {
+                  "aprskh_prc": "주식매수청구권 행사 기간 및 가격((주식매수청구가격-회사제시))"
+                },
+                {
+                  "mgdt_etc": "합병기일등"
+                },
+                {
+                  "rt_vl": "비율 또는 가액"
+                },
+                {
+                  "exevl_int": "외부평가기관"
+                },
+                {
+                  "grtmn_etc": "지급 교부금 등"
+                },
+                {
+                  "rpt_rcpn": "주요사항보고서(접수번호)"
+                }
+              ]
+            },
+            {
+              "group": [
+                {
+                  "title": "발행증권"
+                },
+                {
+                  "list": [
+                    {
+                      "rcept_no": "접수번호"
+                    },
+                    {
+                      "corp_cls": "법인구분"
+                    },
+                    {
+                      "corp_code": "고유번호"
+                    },
+                    {
+                      "corp_name": "회사명"
+                    },
+                    {
+                      "kndn": "종류"
+                    },
+                    {
+                      "cnt": "수량"
+                    },
+                    {
+                      "fv": "액면가액"
+                    },
+                    {
+                      "slprc": "모집(매출)가액"
+                    },
+                    {
+                      "slta": "모집(매출)총액"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "group": [
+                {
+                  "title": "당사회사에관한사항"
+                },
+                {
+                  "list": [
+                    {
+                      "rcept_no": "접수번호"
+                    },
+                    {
+                      "corp_cls": "법인구분"
+                    },
+                    {
+                      "corp_code": "고유번호"
+                    },
+                    {
+                      "corp_name": "회사명"
+                    },
+                    {
+                      "cmpnm": "회사명"
+                    },
+                    {
+                      "sen": "구분"
+                    },
+                    {
+                      "tast": "총자산"
+                    },
+                    {
+                      "cpt": "자본금"
+                    },
+                    {
+                      "isstk_knd": "발행주식수(주식의종류)"
+                    },
+                    {
+                      "isstk_cnt": "발행주식수(주식수)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      }
+    ],
+    "title": "합병",
+    "code": "F2"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "group1": null,
+          "group2": null,
+          "group3": null,
+          "group4": null,
+          "group5": null,
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "hdr": "보유자"
+            },
+            {
+              "rl_cmp": "회사와의관계"
+            },
+            {
+              "bfsl_hdstk": "매출전보유증권수"
+            },
+            {
+              "slstk": "매출증권수"
+            },
+            {
+              "atsl_hdstk": "매출후보유증권수"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드",
+          "title": "매출인에관한사항"
+        }
+      }
+    ],
+    "title": "증권예탁증권",
+    "code": "F3"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드"
+        }
+      },
+      {
+        "group1": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "tm": "회차"
+            },
+            {
+              "bdnmn": "채무증권 명칭"
+            },
+            {
+              "slmth": "모집(매출)방법"
+            },
+            {
+              "fta": "권면(전자등록)총액"
+            },
+            {
+              "slta": "모집(매출)총액"
+            },
+            {
+              "isprc": "발행가액"
+            },
+            {
+              "intr": "이자율"
+            },
+            {
+              "isrr": "발행수익률"
+            },
+            {
+              "rpd": "상환기일"
+            },
+            {
+              "print_pymint": "원리금지급대행기관"
+            },
+            {
+              "mngt_cmp": "(사채)관리회사"
+            },
+            {
+              "cdrt_int": "신용등급(신용평가기관)"
+            },
+            {
+              "sbd": "청약기일"
+            },
+            {
+              "pymd": "납입기일"
+            },
+            {
+              "sband": "청약공고일"
+            },
+            {
+              "asand": "배정공고일"
+            },
+            {
+              "asstd": "배정기준일"
+            },
+            {
+              "dpcrn": "표시통화"
+            },
+            {
+              "dpcr_amt": "표시통화기준발행규모"
+            },
+            {
+              "usarn": "사용지역"
+            },
+            {
+              "usntn": "사용국가"
+            },
+            {
+              "wnexpl_at": "원화 교환 예정 여부"
+            },
+            {
+              "udtintnm": "인수기관명"
+            },
+            {
+              "grt_int": "보증을 받은 경우(보증기관)"
+            },
+            {
+              "grt_amt": "보증을 받은 경우(보증금액)"
+            },
+            {
+              "icmg_mgknd": "담보 제공의 경우(담보의 종류)"
+            },
+            {
+              "icmg_mgamt": "담보 제공의 경우(담보금액)"
+            },
+            {
+              "estk_exstk": "지분증권과 연계된 경우(행사대상증권)"
+            },
+            {
+              "estk_exrt": "지분증권과 연계된 경우(권리행사비율)"
+            },
+            {
+              "estk_exprc": "지분증권과 연계된 경우(권리행사가격)"
+            },
+            {
+              "estk_expd": "지분증권과 연계된 경우(권리행사기간)"
+            },
+            {
+              "rpt_rcpn": "주요사항보고서(접수번호)"
+            },
+            {
+              "drcb_at": "파생결합사채해당여부"
+            },
+            {
+              "drcb_uast": "파생결합사채(기초자산)"
+            },
+            {
+              "drcb_optknd": "파생결합사채(옵션종류)"
+            },
+            {
+              "drcb_mtd": "파생결합사채(만기일)"
+            }
+          ],
+          "title": "일반사항"
+        }
+      },
+      {
+        "group2": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "tm": "회차"
+            },
+            {
+              "actsen": "인수인구분"
+            },
+            {
+              "actnmn": "인수인명"
+            },
+            {
+              "stksen": "증권의종류"
+            },
+            {
+              "udtcnt": "인수수량"
+            },
+            {
+              "udtamt": "인수금액"
+            },
+            {
+              "udtprc": "인수대가"
+            },
+            {
+              "udtmth": "인수방법"
+            }
+          ],
+          "title": "인수인정보"
+        }
+      },
+      {
+        "group3": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "tm": "회차"
+            },
+            {
+              "se": "구분"
+            },
+            {
+              "amt": "금액"
+            }
+          ],
+          "title": "자금의사용목적"
+        }
+      },
+      {
+        "group4": {
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "tm": "회차"
+            },
+            {
+              "hdr": "보유자"
+            },
+            {
+              "rl_cmp": "회사와의관계"
+            },
+            {
+              "bfsl_hdstk": "매출전보유증권수"
+            },
+            {
+              "slstk": "매출증권수"
+            },
+            {
+              "atsl_hdstk": "매출후보유증권수"
+            }
+          ],
+          "title": "매출인에관한사항"
+        }
+      }
+    ],
+    "title": "채무증권 검색",
+    "code": "F4"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "group1": null,
+          "group2": null,
+          "group3": null,
+          "group4": null,
+          "group5": null,
+          "group6": null,
+          "list": [
+            {
+              "rcept_no": "접수번호"
+            },
+            {
+              "corp_cls": "법인구분"
+            },
+            {
+              "corp_code": "고유번호"
+            },
+            {
+              "corp_name": "회사명"
+            },
+            {
+              "grtrs": "부여사유"
+            },
+            {
+              "exavivr": "행사가능 투자자"
+            },
+            {
+              "grtcnt": "부여수량"
+            },
+            {
+              "expd": "행사기간"
+            },
+            {
+              "exprc": "행사가격"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드",
+          "title": "일반청약자환매청구권"
+        }
+      }
+    ],
+    "title": "지분증권정보",
+    "code": "F5"
+  },
+  {
+    "response": [
+      {
+        "result": {
+          "group1": null,
+          "group2": null,
+          "group3": null,
+          "list": [
+            {
+              "cmpnm": "회사명",
+              "corp_cls": "법인구분",
+              "corp_code": "고유번호",
+              "corp_name": "회사명",
+              "cpt": "자본금",
+              "isstk_cnt": "발행주식수(주식수)",
+              "isstk_knd": "발행주식수(주식의종류)",
+              "rcept_no": "접수번호",
+              "sen": "구분",
+              "tast": "총자산"
+            }
+          ],
+          "message": "에러 및 정보 메시지",
+          "status": "에러 및 정보 코드",
+          "title": "당사회사에관한사항"
+        }
+      }
+    ],
+    "title": "분할",
+    "code": "F6"
+  }
+]
